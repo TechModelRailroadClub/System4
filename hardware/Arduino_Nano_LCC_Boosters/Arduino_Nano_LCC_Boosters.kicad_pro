@@ -525,11 +525,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -592,6 +604,30 @@
     [
       "114987af-28e5-4147-8100-6d33f39c9134",
       "Block Driver D"
+    ],
+    [
+      "1ffce3d3-2f92-4867-b6ac-2aebb7cc47de",
+      "Block Driver E"
+    ],
+    [
+      "7b30e1d8-cc5c-4976-a2aa-b8f52e664748",
+      "Block Driver F"
+    ],
+    [
+      "fb790958-b0ac-4b1b-9844-1a06e18b4766",
+      "Block Driver G"
+    ],
+    [
+      "42153627-7ef2-4a1f-abcd-488f0e1e8a5f",
+      "Block Driver H"
+    ],
+    [
+      "cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9",
+      "CAN Interface 1"
+    ],
+    [
+      "577d4ac4-b29d-4707-bc46-b8b7b8fe12a7",
+      "CAN Interface 2"
     ]
   ],
   "text_variables": {}
