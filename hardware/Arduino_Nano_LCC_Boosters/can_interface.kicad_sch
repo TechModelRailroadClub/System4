@@ -1767,7 +1767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U-3Pin_Vertical"
 			(at 106.68 98.425 0)
 			(effects
 				(font

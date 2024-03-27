@@ -6269,6 +6269,17 @@
 		)
 		(uuid "189ef2fe-3ae7-4963-9618-183a529726a6")
 	)
+	(label "out2_B"
+		(at 99.06 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a2166e7-855f-4338-8b16-b587d756243a")
+	)
 	(label "raw_dcc_p"
 		(at 250.19 33.02 0)
 		(fields_autoplaced yes)
@@ -6301,6 +6312,17 @@
 			(justify right bottom)
 		)
 		(uuid "252a62dc-6eb7-4de8-a228-c3d74d1e0448")
+	)
+	(label "out1_G"
+		(at 175.26 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2562cd7b-7a10-44a4-873b-eeaff80781c4")
 	)
 	(label "~{led_1}"
 		(at 229.87 25.4 180)
@@ -6378,6 +6400,17 @@
 			(justify left bottom)
 		)
 		(uuid "2ca18143-7ba8-4e11-a7a1-7240c4e9d444")
+	)
+	(label "out2_F"
+		(at 175.26 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cdc5f32-c209-4893-8c79-faf1a7b5281c")
 	)
 	(label "dcc_p"
 		(at 73.66 71.12 180)
@@ -6500,6 +6533,17 @@
 		)
 		(uuid "41558148-57ed-45f2-b8b5-7870f31c6684")
 	)
+	(label "out2_A"
+		(at 99.06 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41b09fa3-bb94-400e-bce0-7f3c2e3d7e44")
+	)
 	(label "sck_2"
 		(at 22.86 127 180)
 		(fields_autoplaced yes)
@@ -6510,6 +6554,28 @@
 			(justify right bottom)
 		)
 		(uuid "41c46837-7076-4a91-b196-c24742901182")
+	)
+	(label "out1_F"
+		(at 175.26 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "438213f0-a2da-486b-806e-428d5113b6b6")
+	)
+	(label "out2_C"
+		(at 99.06 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "447453f9-a5b8-456f-84bf-0526d656c734")
 	)
 	(label "dir_B"
 		(at 73.66 58.42 180)
@@ -6621,6 +6687,17 @@
 		)
 		(uuid "6249700e-a642-4de4-a0c2-2c8efe830a9a")
 	)
+	(label "out1_E"
+		(at 175.26 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e9531b-a785-4ab7-b4b5-48f8f6b75140")
+	)
 	(label "dcc_en_A"
 		(at 48.26 59.69 0)
 		(fields_autoplaced yes)
@@ -6687,6 +6764,17 @@
 		)
 		(uuid "70164718-c9b8-49c8-9028-cfeee638bf6a")
 	)
+	(label "out1_D"
+		(at 99.06 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70f19371-d652-4c4d-b680-9ce9ab4fccfb")
+	)
 	(label "pwm_C"
 		(at 73.66 80.01 180)
 		(fields_autoplaced yes)
@@ -6741,6 +6829,17 @@
 			(justify left bottom)
 		)
 		(uuid "74d1cf9a-aec5-4560-94fc-1fc8a3fe7183")
+	)
+	(label "out1_H"
+		(at 175.26 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76942c5c-7d7d-42ca-b4c3-9e719204b4a6")
 	)
 	(label "cipo_1"
 		(at 22.86 59.69 180)
@@ -6807,6 +6906,17 @@
 			(justify left bottom)
 		)
 		(uuid "7f0c5f4a-b420-4854-bdc5-eff8261af6f5")
+	)
+	(label "out2_D"
+		(at 99.06 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f6386ec-9b09-41a0-b6bb-cf8c406feb0f")
 	)
 	(label "dcc_n"
 		(at 73.66 99.06 180)
@@ -6896,6 +7006,17 @@
 		)
 		(uuid "8a65b6b9-c9a0-43cc-953a-4bf94d69b78f")
 	)
+	(label "out2_G"
+		(at 175.26 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd24b3c-698b-4982-a0a4-3a03fdf96755")
+	)
 	(label "can_shield"
 		(at 250.19 30.48 0)
 		(fields_autoplaced yes)
@@ -6939,6 +7060,17 @@
 			(justify right bottom)
 		)
 		(uuid "942b5b1f-bedb-45ad-8d9b-cf16b24dada5")
+	)
+	(label "out1_C"
+		(at 99.06 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "946bed22-d0df-48c2-aacc-59f39df9503c")
 	)
 	(label "sck_1"
 		(at 22.86 62.23 180)
@@ -6984,6 +7116,17 @@
 		)
 		(uuid "97a320cc-3ce3-4a03-b8ef-2f92c8c5dca5")
 	)
+	(label "out2_H"
+		(at 175.26 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98f2f31d-ae49-45be-8c37-dc9582962242")
+	)
 	(label "dcc_en_A"
 		(at 73.66 26.67 180)
 		(fields_autoplaced yes)
@@ -7016,6 +7159,17 @@
 			(justify right bottom)
 		)
 		(uuid "9bc011de-be0f-4adc-8ee0-2dd53e18b6de")
+	)
+	(label "out1_A"
+		(at 99.06 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e830111-31ca-4c6b-9071-4e74eb5da9e4")
 	)
 	(label "copi_1"
 		(at 226.06 105.41 180)
@@ -7325,6 +7479,17 @@
 		)
 		(uuid "c6eaed00-dd13-4fc7-bfb1-2051ebbce042")
 	)
+	(label "out2_E"
+		(at 175.26 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9cee0b8-ddfd-4667-a9da-0441c335a367")
+	)
 	(label "~{reset_2}"
 		(at 256.54 130.81 0)
 		(fields_autoplaced yes)
@@ -7368,6 +7533,17 @@
 			(justify right bottom)
 		)
 		(uuid "cf5664a5-3ded-4eab-bce8-9dbaafd6e015")
+	)
+	(label "out1_B"
+		(at 99.06 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6896535-6736-41b9-b544-835aab9ded87")
 	)
 	(label "dcc_en_H"
 		(at 22.86 96.52 180)
@@ -7682,7 +7858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
 			(at 208.28 58.42 0)
 			(effects
 				(font
@@ -7829,7 +8005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "195ea881-0e67-4162-9880-3a0346192064")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0102"
 			(at 30.48 22.86 0)
 			(effects
 				(font
@@ -7879,7 +8055,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR01")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7975,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
 			(at 81.28 138.176 0)
 			(effects
 				(font
@@ -8189,7 +8365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
 			(at 226.06 65.278 90)
 			(effects
 				(font
@@ -8257,7 +8433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 59.69 182.88 0)
 			(effects
 				(font
@@ -8410,7 +8586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54d9c120-7fbe-4e00-bf52-d52dc1748f7a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0101"
 			(at 43.18 22.86 0)
 			(effects
 				(font
@@ -8460,7 +8636,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR02")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8558,7 +8734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 50.8 35.56 0)
 			(effects
 				(font
@@ -8626,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -8928,7 +9104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
 			(at 132.08 58.42 0)
 			(effects
 				(font
@@ -9223,7 +9399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X-02"
 			(at 240.03 34.925 90)
 			(effects
 				(font
@@ -9624,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
 			(at 226.06 44.958 90)
 			(effects
 				(font
@@ -9758,7 +9934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X-02"
 			(at 240.03 70.485 90)
 			(effects
 				(font
@@ -9962,7 +10138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
 			(at 226.06 80.518 90)
 			(effects
 				(font
@@ -10185,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
 			(at 226.06 29.718 90)
 			(effects
 				(font
@@ -10582,7 +10758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 50.8 100.33 0)
 			(effects
 				(font
