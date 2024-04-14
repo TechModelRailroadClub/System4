@@ -12,341 +12,6 @@
 		(comment 1 "Noah Paladino")
 	)
 	(lib_symbols
-		(symbol "74xx_IEEE:7404"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "7404"
-				(at 3.81 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "7404_0_0"
-				(text "1"
-					(at -0.508 0.508 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-					)
-				)
-			)
-			(symbol "7404_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_1_1"
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_2_1"
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_3_1"
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_4_1"
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_5_1"
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7404_6_1"
-				(pin input inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 6.35)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1466,22 +1131,22 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x12"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 15.24 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x12"
-				(at 0 -17.78 0)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1506,7 +1171,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1533,10 +1198,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x12_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 13.97)
-					(end 1.27 -16.51)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1546,7 +1211,7 @@
 					)
 				)
 				(circle
-					(center 0 -15.24)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -1556,8 +1221,56 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 0 -12.7)
+					(center 0 0)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -1565,6 +1278,123 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Screw_Terminal_01x08"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x08"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(circle
@@ -1603,30 +1433,6 @@
 				(circle
 					(center 0 -2.54)
 					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -14.9098) (xy 0.3302 -15.748)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -12.3698) (xy 0.3302 -13.208)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1733,54 +1539,6 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 10.4902) (xy 0.3302 9.652)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 13.0302) (xy 0.3302 12.192)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -14.732) (xy 0.508 -15.5702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -12.192) (xy 0.508 -13.0302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.3556 -9.652) (xy 0.508 -10.4902)
 					)
 					(stroke
@@ -1875,30 +1633,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 10.668) (xy 0.508 9.8298)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 13.208) (xy 0.508 12.3698)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -1943,30 +1677,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 12.7)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1984,61 +1696,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2056,7 +1714,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2074,7 +1732,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2092,7 +1750,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2110,7 +1768,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2128,7 +1786,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2146,7 +1804,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2156,24 +1814,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4071,12 +3711,6 @@
 		(uuid "5e653368-3063-4776-84dc-4a9f2e5c6f64")
 	)
 	(junction
-		(at 48.26 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6297f797-b3e5-4211-bc4b-8e95ea51f9e9")
-	)
-	(junction
 		(at 48.26 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4099,12 +3733,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "959eb68d-4f5c-4bc6-922e-bf808823984e")
-	)
-	(junction
-		(at 24.13 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b328554e-4abf-454a-b694-924c01568b7c")
 	)
 	(junction
 		(at 48.26 95.25)
@@ -4138,16 +3766,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 36.83) (xy 120.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d502df-f792-4bfb-86e3-9e74b74fe484")
-	)
-	(wire
-		(pts
 			(xy 149.86 50.8) (xy 151.13 50.8)
 		)
 		(stroke
@@ -4178,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 177.8) (xy 48.26 177.8)
+			(xy 53.34 179.07) (xy 69.85 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4255,16 +3873,6 @@
 			(type default)
 		)
 		(uuid "1337082a-c5ba-4f56-9714-ddd32198fbaf")
-	)
-	(wire
-		(pts
-			(xy 149.86 48.26) (xy 151.13 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135da182-cfef-4e60-866e-9f6849b13b38")
 	)
 	(wire
 		(pts
@@ -4345,16 +3953,6 @@
 			(type default)
 		)
 		(uuid "1ebd1a40-7489-4518-bcd7-e3eb973d12fd")
-	)
-	(wire
-		(pts
-			(xy 48.26 177.8) (xy 52.07 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5c7dab-6cae-4297-b930-2e1f92e4bacd")
 	)
 	(wire
 		(pts
@@ -4528,16 +4126,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 43.18) (xy 118.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398e0906-75fa-4127-882a-a8bdd15c5313")
-	)
-	(wire
-		(pts
 			(xy 255.27 125.73) (xy 256.54 125.73)
 		)
 		(stroke
@@ -4648,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 177.8) (xy 48.26 176.53)
+			(xy 69.85 179.07) (xy 69.85 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4728,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 74.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53faff39-e10d-4bcf-97e8-94d0705c92eb")
-	)
-	(wire
-		(pts
 			(xy 149.86 73.66) (xy 151.13 73.66)
 		)
 		(stroke
@@ -4765,16 +4343,6 @@
 			(type default)
 		)
 		(uuid "5889a93e-a968-4ded-b92f-d4d036af5d1c")
-	)
-	(wire
-		(pts
-			(xy 149.86 24.13) (xy 151.13 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f7f9ae-f7b8-47c6-ab7f-b891e9f45104")
 	)
 	(wire
 		(pts
@@ -5058,7 +4626,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 36.83) (xy 196.85 45.72)
+			(xy 132.08 176.53) (xy 132.08 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5178,17 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 172.72) (xy 59.69 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90208707-4db6-4f6e-889c-02ee1ef841a2")
-	)
-	(wire
-		(pts
-			(xy 203.2 45.72) (xy 196.85 45.72)
+			(xy 133.35 181.61) (xy 132.08 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5245,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "9d69290d-05ef-47dd-b238-20e2c67c2c33")
-	)
-	(wire
-		(pts
-			(xy 43.18 182.88) (xy 46.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc438c2-f5a4-4ebe-82a0-8feb596e2a12")
 	)
 	(wire
 		(pts
@@ -5338,6 +4886,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 184.15) (xy 38.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c1233f-202c-4b37-abe5-d6adfb3fcb93")
+	)
+	(wire
+		(pts
 			(xy 113.03 96.52) (xy 113.03 66.04)
 		)
 		(stroke
@@ -5388,7 +4946,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 48.26) (xy 194.31 48.26)
+			(xy 133.35 184.15) (xy 129.54 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5405,16 +4963,6 @@
 			(type default)
 		)
 		(uuid "aee672c4-a837-4f38-875b-28f9cf9cb55f")
-	)
-	(wire
-		(pts
-			(xy 24.13 182.88) (xy 24.13 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af924b64-5dd1-4eac-87c3-6205a636d10e")
 	)
 	(wire
 		(pts
@@ -5548,16 +5096,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 182.88) (xy 24.13 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56f58a5-367e-4833-8f3f-320df96a5eac")
-	)
-	(wire
-		(pts
 			(xy 73.66 109.22) (xy 74.93 109.22)
 		)
 		(stroke
@@ -5588,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 184.15) (xy 24.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95fc53c-aa68-4ce3-8151-4a86e94ffbd8")
+	)
+	(wire
+		(pts
 			(xy 173.99 99.06) (xy 191.77 99.06)
 		)
 		(stroke
@@ -5595,16 +5143,6 @@
 			(type default)
 		)
 		(uuid "cac49af0-ca76-4a13-83e1-1b58bb64b0bf")
-	)
-	(wire
-		(pts
-			(xy 73.66 24.13) (xy 74.93 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb995ec7-7e38-4003-ba26-5da289e9fcd4")
 	)
 	(wire
 		(pts
@@ -5618,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 194.31 48.26)
+			(xy 129.54 182.88) (xy 129.54 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5645,16 +5183,6 @@
 			(type default)
 		)
 		(uuid "ccfa3c3d-8e08-4f4e-9ed6-b35def4c7e3c")
-	)
-	(wire
-		(pts
-			(xy 24.13 193.04) (xy 59.69 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4d2e28-4aa0-4feb-86cf-48b618f7d2c8")
 	)
 	(wire
 		(pts
@@ -5718,16 +5246,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 118.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6854463-743e-49ea-a0c9-ae5365ec7c0e")
-	)
-	(wire
-		(pts
 			(xy 60.96 40.64) (xy 60.96 43.18)
 		)
 		(stroke
@@ -5755,16 +5273,6 @@
 			(type default)
 		)
 		(uuid "dbac69a7-3b8d-4e1a-9865-e9172ab419d0")
-	)
-	(wire
-		(pts
-			(xy 73.66 99.06) (xy 74.93 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd59584c-d225-4710-832c-15293742afe9")
 	)
 	(wire
 		(pts
@@ -5798,16 +5306,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 48.26) (xy 74.93 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1d669f6-b749-43a7-b54a-92f4943771eb")
-	)
-	(wire
-		(pts
 			(xy 149.86 76.2) (xy 151.13 76.2)
 		)
 		(stroke
@@ -5815,16 +5313,6 @@
 			(type default)
 		)
 		(uuid "e2d715c0-9ab8-499e-b7bc-4832ca1bcbac")
-	)
-	(wire
-		(pts
-			(xy 127 45.72) (xy 120.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e353312e-d7ab-4cb4-bc5b-152ca740349f")
 	)
 	(wire
 		(pts
@@ -5855,16 +5343,6 @@
 			(type default)
 		)
 		(uuid "e70b8922-4698-47ce-a798-a6773a4a5fa1")
-	)
-	(wire
-		(pts
-			(xy 52.07 172.72) (xy 52.07 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7261ef6-a2b0-4d13-98e3-96fc5d7ccf0d")
 	)
 	(wire
 		(pts
@@ -6069,6 +5547,18 @@
 		(uuid 7d8fc2ba-3987-44a2-a050-a20a5df1d744)
 	)
 	(rectangle
+		(start 119.38 168.91)
+		(end 153.67 200.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid be4507bb-a7f9-4438-b686-c680da22cbf0)
+	)
+	(rectangle
 		(start 15.24 168.91)
 		(end 78.74 200.66)
 		(stroke
@@ -6112,7 +5602,7 @@
 	)
 	(text_box "(This turns the DCC waveform into a digital logic signal)"
 		(exclude_from_sim no)
-		(at 26.67 194.31 0)
+		(at 27.94 194.31 0)
 		(size 39.37 6.35)
 		(stroke
 			(width -0.0001)
@@ -6213,17 +5703,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e04a2c0-6aa6-41b0-80d8-a72f7caaa459")
-	)
-	(label "dcc_n"
-		(at 149.86 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e0e304e-035d-4ee4-9a68-653907eeecc5")
 	)
 	(label "sense_C"
 		(at 99.06 77.47 0)
@@ -6479,7 +5958,7 @@
 		(uuid "37fc3e68-f8f2-4d51-9a26-25a7fe9c9ee3")
 	)
 	(label "dcc_p"
-		(at 43.18 182.88 0)
+		(at 53.34 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6598,17 +6077,6 @@
 			(justify right bottom)
 		)
 		(uuid "4af7b6db-64bc-4b60-b5f5-b139a93851b4")
-	)
-	(label "raw_dcc_p"
-		(at 127 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c7a5b50-f41c-4c3b-b99e-6c9277ff7881")
 	)
 	(label "dcc_p"
 		(at 149.86 45.72 180)
@@ -6808,17 +6276,6 @@
 		)
 		(uuid "72b80337-acfb-4fe2-a06c-07134aba5627")
 	)
-	(label "dcc_n"
-		(at 149.86 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "736fb7da-1d3e-4071-a45b-a6e362546798")
-	)
 	(label "~{reset_1}"
 		(at 256.54 110.49 0)
 		(fields_autoplaced yes)
@@ -6917,17 +6374,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f6386ec-9b09-41a0-b6bb-cf8c406feb0f")
-	)
-	(label "dcc_n"
-		(at 73.66 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f6b0b8c-b606-46ee-984b-d3ff599820be")
 	)
 	(label "sense_B"
 		(at 99.06 52.07 0)
@@ -7182,19 +6628,8 @@
 		)
 		(uuid "9eefd729-f6f3-426c-a558-b9d5806e7e8d")
 	)
-	(label "dcc_n"
-		(at 73.66 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a16c7c26-eec3-4997-aba0-617b945b581d")
-	)
 	(label "raw_dcc_p"
-		(at 27.94 177.8 180)
+		(at 38.1 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7247,17 +6682,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5a430bc-36f1-4347-be86-c00703afda8c")
-	)
-	(label "dcc_n"
-		(at 72.39 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a70c6daa-162d-42eb-909d-d52b546bed1e")
 	)
 	(label "cs_1"
 		(at 22.86 54.61 180)
@@ -7579,7 +7003,7 @@
 		(uuid "dbf11dd6-cf55-4709-b5ed-15da45f00f39")
 	)
 	(label "raw_dcc_n"
-		(at 203.2 73.66 180)
+		(at 133.35 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7599,17 +7023,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd5f0d64-b65d-495c-a4c4-2ebacc9c7d38")
-	)
-	(label "raw_dcc_n"
-		(at 127 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "def116de-4280-4e52-b20b-582ee6cf402a")
 	)
 	(label "sense_H"
 		(at 175.26 102.87 0)
@@ -7643,17 +7056,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5d09f1c-6466-4abc-896f-5845c262cc2b")
-	)
-	(label "dcc_n"
-		(at 73.66 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e64fc66a-e561-479b-bb3a-0beadeb0bc07")
 	)
 	(label "pwm_H"
 		(at 149.86 105.41 180)
@@ -7721,19 +7123,8 @@
 		)
 		(uuid "f4a8f111-76ce-47c9-bb5b-e3bb36d22df2")
 	)
-	(label "dcc_n"
-		(at 73.66 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f50d7d9f-9f54-4433-834d-cac7d39c7387")
-	)
 	(label "raw_dcc_p"
-		(at 203.2 71.12 180)
+		(at 133.35 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7832,171 +7223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x12")
-		(at 208.28 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08f7253c-c815-423f-8fc7-0924240f62bb")
-		(property "Reference" "J4"
-			(at 210.82 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x12"
-			(at 212.09 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
-			(at 208.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "8d3ed564-17af-41a7-827e-ce6044fd2db6")
-		)
-		(pin "8"
-			(uuid "3d1f8d3f-01d0-448f-87e8-84ffa1718e8e")
-		)
-		(pin "6"
-			(uuid "d95507b4-fb79-48c6-bcb4-6fe30beea43c")
-		)
-		(pin "9"
-			(uuid "5b278d3d-b232-4bfd-b4fb-ff2d56fd48dd")
-		)
-		(pin "2"
-			(uuid "bd956497-4cd6-4343-be00-de34a016dd6d")
-		)
-		(pin "3"
-			(uuid "0f0025b0-725a-4591-81d8-0c1a160cc070")
-		)
-		(pin "7"
-			(uuid "8a5a27fa-2e7e-45d0-93f1-58f71001070f")
-		)
-		(pin "4"
-			(uuid "9e1a9b7c-ed34-419f-bfed-5b2928c31efe")
-		)
-		(pin "1"
-			(uuid "c03965fb-de1a-4a64-9012-7cf685c98ecf")
-		)
-		(pin "5"
-			(uuid "a198c1af-8745-4a84-b23f-90ca7596c092")
-		)
-		(pin "12"
-			(uuid "645941f2-9047-404b-991a-3cedaca7736b")
-		)
-		(pin "11"
-			(uuid "6c17314b-8f0c-49d6-b23e-8f80d17cb2fb")
-		)
-		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 120.65 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "109661af-c415-4b8b-aeac-998b325fe89d")
-		(property "Reference" "#PWR037"
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VTRACK"
-			(at 120.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VTRACK\""
-			(at 120.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c6d63fa-34d7-490e-98d7-9a7c3301676f")
-		)
-		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 30.48 19.05 0)
 		(unit 1)
@@ -8005,7 +7231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "195ea881-0e67-4162-9880-3a0346192064")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR02"
 			(at 30.48 22.86 0)
 			(effects
 				(font
@@ -8055,7 +7281,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR0102")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8070,7 +7296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b488a8a-c6d4-4939-92bd-6e4c1ca481d1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 36.83 76.2 0)
 			(effects
 				(font
@@ -8120,7 +7346,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8135,7 +7361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c2fba91-fe77-4775-b791-f219f3fdab68")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 80.01 131.572 0)
 			(effects
 				(font
@@ -8190,7 +7416,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8198,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:ACPL-214-500E")
-		(at 35.56 180.34 0)
+		(at 45.72 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8206,8 +7432,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebeb174-f27e-4456-9667-20348eac896c")
-		(property "Reference" "U6"
-			(at 35.56 171.45 0)
+		(property "Reference" "U1"
+			(at 45.72 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +7441,7 @@
 			)
 		)
 		(property "Value" "ACPL-214-500E"
-			(at 35.56 173.99 0)
+			(at 45.72 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +7449,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
-			(at 13.97 185.42 0)
+			(at 24.13 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +7460,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/doc/AV02-0469EN"
-			(at 36.195 180.34 0)
+			(at 46.355 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +7470,7 @@
 			)
 		)
 		(property "Description" "AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4"
-			(at 35.56 180.34 0)
+			(at 45.72 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +7493,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8275,7 +7501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 43.18 0)
+		(at 129.54 182.88 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8283,8 +7509,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b99c4c8-98fe-449d-b53c-7258e999a06f")
-		(property "Reference" "#PWR047"
-			(at 194.31 36.83 0)
+		(property "Reference" "#PWR019"
+			(at 129.54 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +7519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 38.1 0)
+			(at 129.54 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +7527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 43.18 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +7536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 43.18 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +7545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 43.18 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +7559,76 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR047")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 138.43 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f455971-2ed2-4f15-a0fb-961c986b62f8")
+		(property "Reference" "J3"
+			(at 140.97 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 127.508 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a55cd50-946a-4d98-836b-048969066241")
+		)
+		(pin "2"
+			(uuid "81ce8bed-ac72-4403-8979-36690e2abd51")
+		)
+		(instances
+			(project "Arduino_Nano_LCC_Boosters"
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8349,7 +7644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41d883c6-186c-47b4-bab4-d30f80e12078")
-		(property "Reference" "R16"
+		(property "Reference" "R3"
 			(at 226.06 69.85 90)
 			(effects
 				(font
@@ -8401,49 +7696,41 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "R16")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx_IEEE:7404")
-		(at 59.69 182.88 0)
-		(unit 3)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 208.28 58.42 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fe07e44-7d21-426b-9443-6460ccf8ec89")
-		(property "Reference" "U16"
-			(at 69.85 176.5614 0)
+		(uuid "43ac5e4c-457c-46ac-ba1c-c5f86e9c79da")
+		(property "Reference" "J5"
+			(at 210.82 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "7404"
-			(at 69.85 179.1014 0)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 211.328 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 59.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 182.88 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,8 +7738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 182.88 0)
+		(property "Datasheet" "~"
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,69 +7747,59 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "14713530-860b-4c68-9ce0-f334b1c1a098")
-		)
-		(pin "9"
-			(uuid "0357de27-6fc3-491b-b274-74b170c655e6")
-		)
-		(pin "10"
-			(uuid "cf581265-c0b4-4961-8f94-ca26183f37d4")
-		)
-		(pin "4"
-			(uuid "21e94527-32e8-4cd2-8ae8-e1b4029a4143")
-		)
-		(pin "14"
-			(uuid "b837df6c-9949-4b7a-b6eb-190b3d12eea8")
-		)
-		(pin "13"
-			(uuid "7b2ebe6d-b2b3-406f-9896-3b871bf8a853")
-		)
-		(pin "6"
-			(uuid "bccf5fd7-3dba-4829-8658-d75164ecaa4d")
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "7"
-			(uuid "a8ba647a-e83b-43a9-87d6-4ced19d854b7")
+			(uuid "7af77ca7-20b3-437d-aed8-fae30118c6e8")
+		)
+		(pin "8"
+			(uuid "53e665c3-22db-49ec-9de9-2040ba724824")
 		)
 		(pin "1"
-			(uuid "16edab20-afa7-4e4e-b78e-63082b3cbbbf")
+			(uuid "1ccc5baf-0c01-4aef-a338-f01087f5a8f5")
 		)
-		(pin "5"
-			(uuid "5b7127cc-91b4-48b6-aa37-1d7a62813d4a")
+		(pin "4"
+			(uuid "b06c0bc9-378b-4375-be96-80e3c6333c55")
 		)
 		(pin "3"
-			(uuid "f613f74b-79fd-44d8-b4b8-f9973d9cfe1f")
+			(uuid "8297de19-a651-4611-8907-d235485b4593")
 		)
 		(pin "2"
-			(uuid "51c81422-892e-4e1d-8ef0-00081c9a559c")
+			(uuid "b210f8e5-f048-4ec7-ba9b-0f5ba4ae33b6")
 		)
-		(pin "12"
-			(uuid "e64040bd-5159-4bb4-87ac-1fdc0d646177")
+		(pin "5"
+			(uuid "8e6350cb-d6e2-4600-ac72-e531a033d0fa")
 		)
-		(pin "11"
-			(uuid "72881a6b-5912-4f87-b627-f3e53978d790")
+		(pin "6"
+			(uuid "af0d421f-e897-4e52-8c7d-79b11ff83db6")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "U16")
-					(unit 3)
+					(reference "J5")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 196.85 36.83 0)
+		(at 132.08 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "517cbfc8-ff34-4e67-877b-b2ed8849426a")
-		(property "Reference" "#PWR048"
-			(at 196.85 40.64 0)
+		(property "Reference" "#PWR020"
+			(at 132.08 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +7808,7 @@
 			)
 		)
 		(property "Value" "VTRACK"
-			(at 196.85 31.75 0)
+			(at 132.08 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +7816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 36.83 0)
+			(at 132.08 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +7825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 36.83 0)
+			(at 132.08 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +7834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VTRACK\""
-			(at 196.85 36.83 0)
+			(at 132.08 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +7848,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR048")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8586,7 +7863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54d9c120-7fbe-4e00-bf52-d52dc1748f7a")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR08"
 			(at 43.18 22.86 0)
 			(effects
 				(font
@@ -8636,7 +7913,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR0101")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8651,7 +7928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58c33853-b12e-4f8b-be83-585fd8eaa511")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR015"
 			(at 97.79 138.43 0)
 			(effects
 				(font
@@ -8701,7 +7978,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR084")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650469eb-ff87-42f0-a84c-33caeb078693")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR013"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -8916,7 +8193,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR044")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9078,105 +8355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x12")
-		(at 132.08 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b4a8541-5758-4bf8-98e4-7b0f277d0908")
-		(property "Reference" "J1"
-			(at 134.62 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x12"
-			(at 135.89 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "3da593af-68b7-4823-bf6f-80c83158f845")
-		)
-		(pin "8"
-			(uuid "ce6b7896-2573-445d-a264-681aae02dbb7")
-		)
-		(pin "6"
-			(uuid "00ec01bb-f291-4ff1-9c1e-0d247b952cd6")
-		)
-		(pin "9"
-			(uuid "59ed0c45-4789-4094-8f28-d8460b64aaf2")
-		)
-		(pin "2"
-			(uuid "5aa67557-9488-4cae-b45b-497eaf363f1b")
-		)
-		(pin "3"
-			(uuid "fd2e670e-8ea8-4aad-a435-4696e04b637b")
-		)
-		(pin "7"
-			(uuid "1c21e832-9178-4233-95c8-d83809df8d31")
-		)
-		(pin "4"
-			(uuid "8a4005ed-0c7d-46ad-b8b1-7d8b642d20de")
-		)
-		(pin "1"
-			(uuid "43f9637e-5dbc-44cd-942f-769fe94aa583")
-		)
-		(pin "5"
-			(uuid "f0d98674-7675-47a3-8f11-c0e0da6f6678")
-		)
-		(pin "12"
-			(uuid "c0dce871-d27d-4a2d-b8f8-83e270beac48")
-		)
-		(pin "11"
-			(uuid "f37b8567-9a03-45fa-ae53-993157ad5e7d")
-		)
-		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 222.25 22.86 0)
 		(unit 1)
@@ -9186,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703e1f18-239e-4511-ac61-77b39ce0f954")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR021"
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -9236,24 +8414,41 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR038")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 43.18 0)
-		(mirror x)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 132.08 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7135c75a-f452-4b8d-a40d-5b2f8b6626c7")
-		(property "Reference" "#PWR036"
-			(at 118.11 36.83 0)
+		(uuid "7393f4fd-3363-4b3f-a725-8c84dfe5272b")
+		(property "Reference" "J2"
+			(at 134.62 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 135.382 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,16 +8456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 43.18 0)
+		(property "Datasheet" "~"
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,8 +8465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 43.18 0)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,22 +8474,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "7"
+			(uuid "a7a470f7-1dde-4b37-b00f-53e14a9bb767")
+		)
+		(pin "8"
+			(uuid "aef0740f-3fad-417c-a84a-7c1d4573e6df")
 		)
 		(pin "1"
-			(uuid "3374a1a9-fd9b-4395-9bea-db0b89ab97f0")
+			(uuid "75e91a6a-a485-4d60-87d8-af4b62e465c3")
+		)
+		(pin "4"
+			(uuid "451c7c2b-4382-4de7-9b41-c5efdaeaa5f6")
+		)
+		(pin "3"
+			(uuid "41414a79-1c2b-4d9c-80f0-4a30a96b2939")
+		)
+		(pin "2"
+			(uuid "9894cd6c-6dc6-408f-9854-37676fb646e9")
+		)
+		(pin "5"
+			(uuid "bf778b23-226b-46a6-a7d2-b89ab7c8a94e")
+		)
+		(pin "6"
+			(uuid "1ebc2e49-af84-4984-8b21-f6a907fbc733")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR036")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9317,7 +8516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74265150-3672-4e00-826e-aff6e7bb86ed")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR07"
 			(at 36.83 140.97 0)
 			(effects
 				(font
@@ -9367,7 +8566,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR079")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9383,7 +8582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8241a832-9836-41ef-baf2-529fb06670cf")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 240.03 17.78 0)
 			(effects
 				(font
@@ -9507,7 +8706,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9515,7 +8714,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 176.53 0)
+		(at 69.85 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9523,8 +8722,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ae28a1-d1e9-47b2-838e-b2e2f0efa985")
-		(property "Reference" "#PWR040"
-			(at 48.26 180.34 0)
+		(property "Reference" "#PWR012"
+			(at 69.85 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +8732,7 @@
 			)
 		)
 		(property "Value" "IOREF"
-			(at 48.26 171.45 0)
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +8740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 176.53 0)
+			(at 69.85 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +8749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 176.53 0)
+			(at 69.85 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +8758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 176.53 0)
+			(at 69.85 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +8772,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR040")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9589,7 +8788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af8ad9f-4b5c-477d-b614-a4cc9c2bf143")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR022"
 			(at 240.03 92.71 0)
 			(effects
 				(font
@@ -9639,7 +8838,76 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR039")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 138.43 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fc6770c-2f08-460d-b95d-c7d80cb0343a")
+		(property "Reference" "J4"
+			(at 140.97 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 127.508 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 138.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d2e5699-c67b-4b36-9028-2c2f9c723d4b")
+		)
+		(pin "2"
+			(uuid "21aa7609-ac7b-4521-a3cf-65e3e692e5a6")
+		)
+		(instances
+			(project "Arduino_Nano_LCC_Boosters"
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9654,7 +8922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92d62515-3a55-4372-918d-eb4e67f88715")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR03"
 			(at 30.48 87.63 0)
 			(effects
 				(font
@@ -9704,7 +8972,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR077")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9719,7 +8987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9405fcdb-b3c4-4bf2-80dd-6620f3c70c59")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 36.83 22.86 0)
 			(effects
 				(font
@@ -9769,7 +9037,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9784,7 +9052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2258fd0-3cf9-4ef7-9770-3b714591822d")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 226.06 49.53 90)
 			(effects
 				(font
@@ -9836,7 +9104,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9852,7 +9120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a84432-802a-48f3-99ec-9308ccf853ad")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 90.17 194.31 0)
 			(effects
 				(font
@@ -9902,7 +9170,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9918,7 +9186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4147a0b-22cc-4a50-8adf-1368e38428bf")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 240.03 53.34 0)
 			(effects
 				(font
@@ -10042,7 +9310,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "J2")
+					(reference "J6")
 					(unit 2)
 				)
 			)
@@ -10057,7 +9325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc947b30-6393-48e2-b04a-cb03f6cfa4f4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR06"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -10107,7 +9375,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR078")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10122,7 +9390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2c132de-c6cf-47d9-a714-b9c7938ea1eb")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 226.06 85.09 90)
 			(effects
 				(font
@@ -10174,7 +9442,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10345,7 +9613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca1bf2af-654e-481d-a43a-cc812ac2c4b1")
-		(property "Reference" "R13"
+		(property "Reference" "R1"
 			(at 226.06 34.29 90)
 			(effects
 				(font
@@ -10397,7 +9665,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "R13")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10412,7 +9680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4bfe8e-01f8-4611-bf76-faade0dad092")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR011"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -10462,7 +9730,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR081")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10477,7 +9745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d07a572a-3902-439c-92dc-70281b90da00")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 60.96 49.53 0)
 			(effects
 				(font
@@ -10527,7 +9795,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10543,7 +9811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d74ae690-de43-4a02-8a9f-5f0f092daded")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 110.49 194.31 0)
 			(effects
 				(font
@@ -10593,7 +9861,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10609,7 +9877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75b8dcb-40fa-4882-85ce-c334d57da9ac")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 105.41 180.34 0)
 			(effects
 				(font
@@ -10659,7 +9927,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10675,7 +9943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7946df2-8161-47b8-9d86-dc64366411b8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 110.49 185.42 0)
 			(effects
 				(font
@@ -10725,7 +9993,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10810,7 +10078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f90fd2-57ef-47c7-9790-cabe17161eaa")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR01"
 			(at 24.13 199.39 0)
 			(effects
 				(font
@@ -10860,7 +10128,7 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR041")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10875,7 +10143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd24193d-6fe9-4781-96aa-d17324d97c3e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR09"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -10925,14 +10193,14 @@
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(reference "#PWR080")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 74.93 93.98)
+		(at 74.93 68.58)
 		(size 22.86 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -10942,9 +10210,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "114987af-28e5-4147-8100-6d33f39c9134")
-		(property "Sheetname" "Block Driver D"
-			(at 74.93 93.2684 0)
+		(uuid "16a61c21-6004-4b06-a528-55f114e1746e")
+		(property "Sheetname" "Block Driver C"
+			(at 74.93 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,7 +10221,7 @@
 			)
 		)
 		(property "Sheetfile" "block_driver.kicad_sch"
-			(at 74.93 112.3446 0)
+			(at 74.93 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,89 +10230,79 @@
 			)
 		)
 		(pin "OUT1" output
-			(at 97.79 96.52 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cd50cbbb-179e-42e5-b344-9ac751dd0c8a")
+			(uuid "fe6bfa49-0528-42f1-a815-626e384ca6b3")
 		)
 		(pin "OUT2" output
-			(at 97.79 99.06 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4c31358-2d08-41d7-a57d-cbb92e84f354")
+			(uuid "6b383146-755e-4d78-bd3e-6b5733f3278a")
 		)
 		(pin "DCC_p" input
-			(at 74.93 96.52 180)
+			(at 74.93 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "814c334e-b5fa-4ffb-9ee6-3e54fef280f9")
+			(uuid "70e60ec8-df2f-46a7-8787-fef9db3216c9")
 		)
 		(pin "REVERSE" input
-			(at 74.93 109.22 180)
+			(at 74.93 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d5b5bc0-5423-4c14-9017-1c3be2822a3b")
-		)
-		(pin "DCC_n" input
-			(at 74.93 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "98bcf8a4-56a6-4ee7-a9e2-4f6d0ac170c0")
+			(uuid "55978f44-08bd-465f-a05d-147df09108d3")
 		)
 		(pin "DCC_EN" input
-			(at 74.93 101.6 180)
+			(at 74.93 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b5cedae8-bcf1-4c73-939b-1aa56acd86dc")
+			(uuid "d998160d-84ae-4bec-8d4a-1553dd999025")
 		)
 		(pin "PWM" input
-			(at 74.93 105.41 180)
+			(at 74.93 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a2d8e38-6f4a-49c2-badb-0df75fb3a49d")
+			(uuid "dd7076d3-4cc2-4bea-a2e8-2dd21187379a")
 		)
 		(pin "I_SENSE" output
-			(at 97.79 102.87 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf5a6b57-d80d-4b78-8df8-4015e34cb61a")
+			(uuid "afbc3ced-dc98-4545-8cf1-a27d0eeb6966")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -11119,16 +10377,6 @@
 			)
 			(uuid "96e8e82c-192f-4b59-8270-96a929dff4a3")
 		)
-		(pin "DCC_n" input
-			(at 74.93 24.13 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0ad7cb7a-0717-453a-988a-6a053c44326c")
-		)
 		(pin "DCC_EN" input
 			(at 74.93 26.67 180)
 			(effects
@@ -11178,7 +10426,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1ffce3d3-2f92-4867-b6ac-2aebb7cc47de")
+		(uuid "2f82fc89-73d3-4730-8d80-9cbffa0f3f04")
 		(property "Sheetname" "Block Driver E"
 			(at 151.13 18.3384 0)
 			(effects
@@ -11205,7 +10453,7 @@
 				)
 				(justify right)
 			)
-			(uuid "01f30e13-caaa-4131-b70b-f0d8e204711a")
+			(uuid "1a60ac07-8568-448a-871d-12eb7cbc0c15")
 		)
 		(pin "OUT2" output
 			(at 173.99 24.13 0)
@@ -11215,7 +10463,7 @@
 				)
 				(justify right)
 			)
-			(uuid "2870c8e9-e572-4df0-a1a2-c345559886a5")
+			(uuid "c04a7900-d69d-4c43-96d7-3aee40bdf033")
 		)
 		(pin "DCC_p" input
 			(at 151.13 21.59 180)
@@ -11225,7 +10473,7 @@
 				)
 				(justify left)
 			)
-			(uuid "98d467e8-7cf1-49f2-ba22-4c8f565a744a")
+			(uuid "ff45657f-c3db-4f94-8539-401b20aa5d3c")
 		)
 		(pin "REVERSE" input
 			(at 151.13 34.29 180)
@@ -11235,17 +10483,7 @@
 				)
 				(justify left)
 			)
-			(uuid "8ececdab-e38b-4e25-941e-b20866c6e71b")
-		)
-		(pin "DCC_n" input
-			(at 151.13 24.13 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ce84a4d8-083a-4363-8ef6-1d06e134ddef")
+			(uuid "9a4bb289-b82a-4b6a-85e6-777e0512a91e")
 		)
 		(pin "DCC_EN" input
 			(at 151.13 26.67 180)
@@ -11255,7 +10493,7 @@
 				)
 				(justify left)
 			)
-			(uuid "a6d1b92c-9e18-4420-946d-0436d9cc3002")
+			(uuid "9dcb8166-5d29-4bdd-bec9-b774a2838af1")
 		)
 		(pin "PWM" input
 			(at 151.13 30.48 180)
@@ -11265,7 +10503,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9e7d55c2-4566-4797-871d-0215fa05aad1")
+			(uuid "858d85ca-bd8c-4ee3-ae70-0f4e210282c2")
 		)
 		(pin "I_SENSE" output
 			(at 173.99 27.94 0)
@@ -11275,7 +10513,7 @@
 				)
 				(justify right)
 			)
-			(uuid "b7211705-2116-454c-b548-09a4bd6288eb")
+			(uuid "888118a8-7019-4f74-8465-4e652e8e977c")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
@@ -11296,7 +10534,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "362776fa-be67-49d4-853d-27aba9430907")
+		(uuid "3d8d37ff-781a-413e-a1ab-28c500d89104")
 		(property "Sheetname" "Block Driver B"
 			(at 74.93 42.4684 0)
 			(effects
@@ -11323,7 +10561,7 @@
 				)
 				(justify right)
 			)
-			(uuid "f5cc943b-9901-420c-8c7c-18ba398350a8")
+			(uuid "829473ef-9bb0-4a62-9fcd-fa6698cb22c1")
 		)
 		(pin "OUT2" output
 			(at 97.79 48.26 0)
@@ -11333,7 +10571,7 @@
 				)
 				(justify right)
 			)
-			(uuid "8109eb09-190e-41eb-ad92-f0a854076490")
+			(uuid "81ee36f6-75fd-4d39-af59-cfe7b686a2c1")
 		)
 		(pin "DCC_p" input
 			(at 74.93 45.72 180)
@@ -11343,7 +10581,7 @@
 				)
 				(justify left)
 			)
-			(uuid "2971b748-0e1e-4d11-bc57-bad8e7248c3d")
+			(uuid "73f231a7-bc2b-4c01-9a69-78623263bdbb")
 		)
 		(pin "REVERSE" input
 			(at 74.93 58.42 180)
@@ -11353,17 +10591,7 @@
 				)
 				(justify left)
 			)
-			(uuid "96758501-1ee3-4c07-94e0-0a049624a845")
-		)
-		(pin "DCC_n" input
-			(at 74.93 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2522d935-474f-4110-96a0-292aa3066d7f")
+			(uuid "855e22aa-21ab-4a17-a837-4780b24fe46e")
 		)
 		(pin "DCC_EN" input
 			(at 74.93 50.8 180)
@@ -11373,7 +10601,7 @@
 				)
 				(justify left)
 			)
-			(uuid "ed07355f-d521-4cac-be5c-cacc4d237f56")
+			(uuid "a5bdabbf-c24d-4016-8e45-d5998f8e5ee2")
 		)
 		(pin "PWM" input
 			(at 74.93 54.61 180)
@@ -11383,7 +10611,7 @@
 				)
 				(justify left)
 			)
-			(uuid "4fbb1720-2ec5-4064-bc1b-2d382234709e")
+			(uuid "3d35637e-3a56-433d-98f2-f4495fcc5c41")
 		)
 		(pin "I_SENSE" output
 			(at 97.79 52.07 0)
@@ -11393,248 +10621,12 @@
 				)
 				(justify right)
 			)
-			(uuid "6d361cd8-6a4d-4707-bfec-8cf3d07e75e1")
+			(uuid "645c92a5-e68c-45b7-9364-09bce9f50718")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 151.13 93.98)
-		(size 22.86 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "42153627-7ef2-4a1f-abcd-488f0e1e8a5f")
-		(property "Sheetname" "Block Driver H"
-			(at 151.13 93.2684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "block_driver.kicad_sch"
-			(at 151.13 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT1" output
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d5c7337e-e7cc-4672-8e0f-92003cddc107")
-		)
-		(pin "OUT2" output
-			(at 173.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "90c7086a-c83b-4ea8-a400-5a3803da686f")
-		)
-		(pin "DCC_p" input
-			(at 151.13 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "580ea60a-88b8-4e6e-aa61-3e6cf18a404c")
-		)
-		(pin "REVERSE" input
-			(at 151.13 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cb771010-f544-4cd2-abad-4513d742d9a6")
-		)
-		(pin "DCC_n" input
-			(at 151.13 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "349b0f10-95bb-446e-9a82-14067c9dccce")
-		)
-		(pin "DCC_EN" input
-			(at 151.13 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1674d9e6-db86-4b00-802d-ae8671413ff8")
-		)
-		(pin "PWM" input
-			(at 151.13 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fd0cc61b-9220-4552-bd51-455ccc2048f2")
-		)
-		(pin "I_SENSE" output
-			(at 173.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d5b7203-1af8-48e2-9f22-02a0db0465fb")
-		)
-		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 74.93 68.58)
-		(size 22.86 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5166ec9b-aefa-44f9-86d5-bec016018be3")
-		(property "Sheetname" "Block Driver C"
-			(at 74.93 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "block_driver.kicad_sch"
-			(at 74.93 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT1" output
-			(at 97.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4c1b34ea-0023-4637-9665-289a421703be")
-		)
-		(pin "OUT2" output
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bcf6d54d-6127-4458-ba82-3cbf3beae09e")
-		)
-		(pin "DCC_p" input
-			(at 74.93 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3fc868c2-62ec-488d-8f56-18da53deed29")
-		)
-		(pin "REVERSE" input
-			(at 74.93 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fe090772-6858-4a02-8e60-65e5856d901a")
-		)
-		(pin "DCC_n" input
-			(at 74.93 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d8419984-4368-435c-aa31-23a108a28de1")
-		)
-		(pin "DCC_EN" input
-			(at 74.93 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3e930227-9678-4d01-8471-2431d54ee235")
-		)
-		(pin "PWM" input
-			(at 74.93 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "783aa0b1-853a-4876-ac44-01861da1db49")
-		)
-		(pin "I_SENSE" output
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "650451b9-c6fc-47c8-badd-5933a472b0a9")
-		)
-		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(page "4")
 				)
 			)
 		)
@@ -11748,6 +10740,222 @@
 		)
 	)
 	(sheet
+		(at 74.93 93.98)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a397e62-f7f7-479f-a22b-bd64bdce71a5")
+		(property "Sheetname" "Block Driver D"
+			(at 74.93 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_driver.kicad_sch"
+			(at 74.93 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT1" output
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a44c191f-a765-40b6-93ee-87b7dc83b633")
+		)
+		(pin "OUT2" output
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f057298b-739b-440e-bd61-48751f4db566")
+		)
+		(pin "DCC_p" input
+			(at 74.93 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e3ccfa0-9f85-4f36-abe8-8774ec2c2cd2")
+		)
+		(pin "REVERSE" input
+			(at 74.93 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1296a0a3-bfd7-47e4-be30-ea4676e33e05")
+		)
+		(pin "DCC_EN" input
+			(at 74.93 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18ecb5b5-ae00-4722-82c3-e3cbff1f182a")
+		)
+		(pin "PWM" input
+			(at 74.93 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38304dd5-c47c-4424-bdda-fb34eb9ff804")
+		)
+		(pin "I_SENSE" output
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67164a87-d10e-404e-8d83-b7c76c8831d7")
+		)
+		(instances
+			(project "Arduino_Nano_LCC_Boosters"
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 68.58)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93a28888-1310-4c9f-8fbc-c232d7084749")
+		(property "Sheetname" "Block Driver G"
+			(at 151.13 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_driver.kicad_sch"
+			(at 151.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT1" output
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "834fe2a2-2184-44aa-a6f7-b5594c20adf6")
+		)
+		(pin "OUT2" output
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f64e61d-9812-42c9-812b-5c15d7e404d3")
+		)
+		(pin "DCC_p" input
+			(at 151.13 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f3eb20e-ed09-4ce5-a441-6e2036ff1c31")
+		)
+		(pin "REVERSE" input
+			(at 151.13 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdf01420-c286-4923-a607-c5ac47d794c8")
+		)
+		(pin "DCC_EN" input
+			(at 151.13 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38a8dfed-7eaf-42bb-9fa3-4d99c7232a43")
+		)
+		(pin "PWM" input
+			(at 151.13 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f3444cf-ea61-475d-938d-0ee2f58b1eea")
+		)
+		(pin "I_SENSE" output
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bba2931a-f495-4f8c-8029-929927866955")
+		)
+		(instances
+			(project "Arduino_Nano_LCC_Boosters"
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 151.13 43.18)
 		(size 22.86 17.78)
 		(fields_autoplaced yes)
@@ -11758,7 +10966,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7b30e1d8-cc5c-4976-a2aa-b8f52e664748")
+		(uuid "b7dd82f8-aa99-4d45-87f5-88a926787b31")
 		(property "Sheetname" "Block Driver F"
 			(at 151.13 42.4684 0)
 			(effects
@@ -11785,7 +10993,7 @@
 				)
 				(justify right)
 			)
-			(uuid "c069c93e-7d8c-49eb-b033-e1719832c5e2")
+			(uuid "308e8667-1000-4d78-988e-53bd99447507")
 		)
 		(pin "OUT2" output
 			(at 173.99 48.26 0)
@@ -11795,7 +11003,7 @@
 				)
 				(justify right)
 			)
-			(uuid "3a03e319-b39c-45ed-a9e0-21c098e35eaa")
+			(uuid "69132fa5-805b-49c3-9cd4-935927a28d3a")
 		)
 		(pin "DCC_p" input
 			(at 151.13 45.72 180)
@@ -11805,7 +11013,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9a9e4cd0-71fe-47a9-aead-6a6ffb947818")
+			(uuid "dcc56f11-f618-49f9-8275-d1dfdcc0d301")
 		)
 		(pin "REVERSE" input
 			(at 151.13 58.42 180)
@@ -11815,17 +11023,7 @@
 				)
 				(justify left)
 			)
-			(uuid "1c3955d9-138f-4be1-b66c-df50b959cc75")
-		)
-		(pin "DCC_n" input
-			(at 151.13 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "89554dce-b12d-450b-8906-0de26f0c2b3f")
+			(uuid "36a6af56-9638-4c4b-b413-eb236bddc640")
 		)
 		(pin "DCC_EN" input
 			(at 151.13 50.8 180)
@@ -11835,7 +11033,7 @@
 				)
 				(justify left)
 			)
-			(uuid "3accd8dd-2c23-4fe3-8146-f4a9c3db8222")
+			(uuid "427b132d-2983-4921-a59d-74d1105adcf2")
 		)
 		(pin "PWM" input
 			(at 151.13 54.61 180)
@@ -11845,7 +11043,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9595a2b8-2e3b-44c4-ba64-ca4ed2057e32")
+			(uuid "1298ba38-b1b5-4149-9ab8-54745315362f")
 		)
 		(pin "I_SENSE" output
 			(at 173.99 52.07 0)
@@ -11855,7 +11053,7 @@
 				)
 				(justify right)
 			)
-			(uuid "639f996b-8c73-4ba4-a337-9f9a23b50a8b")
+			(uuid "ccf614a2-6fe5-421b-80a2-8fcde71db8d2")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
@@ -11974,7 +11172,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 68.58)
+		(at 151.13 93.98)
 		(size 22.86 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -11984,9 +11182,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fb790958-b0ac-4b1b-9844-1a06e18b4766")
-		(property "Sheetname" "Block Driver G"
-			(at 151.13 67.8684 0)
+		(uuid "e96b593b-8b4d-4580-80fc-ff339af74856")
+		(property "Sheetname" "Block Driver H"
+			(at 151.13 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +11193,7 @@
 			)
 		)
 		(property "Sheetfile" "block_driver.kicad_sch"
-			(at 151.13 86.9446 0)
+			(at 151.13 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,89 +11202,79 @@
 			)
 		)
 		(pin "OUT1" output
-			(at 173.99 71.12 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d52b4e07-b65f-40c2-9eb9-a665bcbb99dc")
+			(uuid "d2441028-1be8-4972-bef5-d4756c2c9834")
 		)
 		(pin "OUT2" output
-			(at 173.99 73.66 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "64e8df8c-3e09-48a1-bbba-23c6fd658fcf")
+			(uuid "331ed762-c063-4544-ab97-efd9b9902508")
 		)
 		(pin "DCC_p" input
-			(at 151.13 71.12 180)
+			(at 151.13 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d4563c48-edb8-445b-ad1c-c8817131d765")
+			(uuid "3588db69-64b8-438b-97e3-1dd906f6e77f")
 		)
 		(pin "REVERSE" input
-			(at 151.13 83.82 180)
+			(at 151.13 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc7a55a5-cb92-42c8-8f83-bb6c4fb5c835")
-		)
-		(pin "DCC_n" input
-			(at 151.13 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ddfefd25-8430-4e18-9287-7cb98698a086")
+			(uuid "254ec46d-cc05-4140-9380-c5fece101eef")
 		)
 		(pin "DCC_EN" input
-			(at 151.13 76.2 180)
+			(at 151.13 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80f6fdc1-9b05-4be2-bbea-547f06a797e2")
+			(uuid "10f8ce0f-a734-4af6-912a-25982ab0ba20")
 		)
 		(pin "PWM" input
-			(at 151.13 80.01 180)
+			(at 151.13 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "09b2c313-d178-49ca-a687-0567b2136093")
+			(uuid "a6af7c87-e3fe-4d89-81e8-f0a94eb00b92")
 		)
 		(pin "I_SENSE" output
-			(at 173.99 77.47 0)
+			(at 173.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "83697e08-1e57-49d4-831f-02c06b7123e5")
+			(uuid "5141c639-7125-4550-ba2e-a15cb7ba1935")
 		)
 		(instances
 			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5"
-					(page "8")
+					(page "9")
 				)
 			)
 		)

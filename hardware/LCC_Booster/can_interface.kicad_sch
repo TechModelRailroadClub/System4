@@ -1681,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7ecda9-73b9-4219-b9f5-d9c7b0cb32c8")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR052"
 			(at 186.69 138.43 0)
 			(effects
 				(font
@@ -1726,16 +1726,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "63c7d62e-7657-4970-9f48-2573e91d7cd1")
+			(uuid "664c9fb0-f4e0-4b67-9204-7dfa18266bf2")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
-					(reference "#PWR089")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "#PWR092")
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1795,22 +1791,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b4bee169-508a-4e09-ad64-c406d1612113")
+			(uuid "8205a37c-93bd-420f-9b87-ca5833ff8a49")
 		)
 		(pin "3"
-			(uuid "bb71037a-0163-4cd9-a274-e4d4db0ffa21")
+			(uuid "383ce9a6-5951-4057-81d3-ceb55bcbc192")
 		)
 		(pin "1"
-			(uuid "f610d09b-c0a0-48d3-8797-22be943ea544")
+			(uuid "f8fbf40d-3229-4f0b-a37c-99c01538a88e")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
 					(reference "Y1")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -1826,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ed7ef4-bf16-4535-b5f3-72805524ae4d")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR050"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -1871,16 +1863,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f21f7de-fdd8-4f51-a580-eb1e4c240ae5")
+			(uuid "1e858bae-c7e8-4987-9c9c-82f836ddb371")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
-					(reference "#PWR087")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "#PWR090")
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1896,7 +1884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94de185d-4d09-46ce-a025-f99dc398e5a9")
-		(property "Reference" "U42"
+		(property "Reference" "U22"
 			(at 135.5441 69.85 0)
 			(effects
 				(font
@@ -1943,67 +1931,63 @@
 			)
 		)
 		(pin "10"
-			(uuid "428a1f78-6382-466b-8839-bfd735cbdee2")
+			(uuid "6fb1f915-bbd7-4c2f-833b-0b2c70460057")
 		)
 		(pin "13"
-			(uuid "7bb6b065-cfdf-413a-b17b-fe42e68595f0")
+			(uuid "1eadf8d4-6740-4803-a70c-30547246d7f9")
 		)
 		(pin "2"
-			(uuid "a9e59eac-8547-4292-aec7-94ef826c88a5")
+			(uuid "bc1e1bf3-39fd-417c-bbc7-7aa13d8ec221")
 		)
 		(pin "18"
-			(uuid "d4a1886b-842f-4170-8452-30e277457863")
+			(uuid "1adca6df-cb60-4719-b828-8f01022a7807")
 		)
 		(pin "16"
-			(uuid "7561605d-0f59-4f25-9662-71b111de1d1d")
+			(uuid "43547460-8127-40dd-8bb3-18dce5742aa7")
 		)
 		(pin "14"
-			(uuid "068a6af9-89dd-47db-ac00-866d41d0b147")
+			(uuid "3a6ec1de-cdd2-48f6-940f-1c4ab3c4e6ad")
 		)
 		(pin "9"
-			(uuid "ca4ed2ea-9ee0-4d35-a143-65c191511cbe")
+			(uuid "cf3fb4c2-f81d-41ca-a409-75130819dbb2")
 		)
 		(pin "6"
-			(uuid "bdf4974a-547f-4128-b38b-57127e30f13d")
+			(uuid "f510f697-5347-43c1-9d3b-5fb3fa8daa20")
 		)
 		(pin "4"
-			(uuid "73f1b937-daf0-495d-8e23-007d385f3e2d")
+			(uuid "0815a783-d6ff-49c8-b999-6c4ef9e65b92")
 		)
 		(pin "1"
-			(uuid "3bef04b8-4fef-4c9b-8f06-ef33f91da5d6")
+			(uuid "7137ef7e-9fca-4d6b-aa31-276015650b1b")
 		)
 		(pin "7"
-			(uuid "0d8638af-4386-4e4d-bb76-1956adea437c")
+			(uuid "4b5aa0e0-44ec-480c-bf95-27725fbf57ad")
 		)
 		(pin "15"
-			(uuid "bc0b8984-e14b-481f-8de0-54878b4046a9")
+			(uuid "bffd0d92-6334-4437-854f-027579c706c0")
 		)
 		(pin "5"
-			(uuid "0c79d8a8-9ba7-441e-9946-42bd2a842d49")
+			(uuid "28a88fdd-f01a-4cf2-8947-036c767d5f09")
 		)
 		(pin "8"
-			(uuid "68901ac5-a35b-4c4a-9eb6-9d75472cbd80")
+			(uuid "bcbc20f8-0b61-481c-8c91-77594d32f16a")
 		)
 		(pin "3"
-			(uuid "66630ff0-dcc3-4ba8-9b31-4c3d8bc81c64")
+			(uuid "290c45c2-f46e-4312-b718-3d0b41c82767")
 		)
 		(pin "12"
-			(uuid "1f9bf90f-3ec5-42ae-a60a-c63f08319c70")
+			(uuid "62d4d192-bfd8-4bf2-912f-8e01fbf6a348")
 		)
 		(pin "11"
-			(uuid "8d2f5361-6b21-48c3-bb2c-a375a08af843")
+			(uuid "c71d7b54-dae9-402d-8636-cc75167a3953")
 		)
 		(pin "17"
-			(uuid "c3e50cae-1f03-4779-83d3-3df60bda4ab4")
+			(uuid "e4fa853c-6f20-43bd-8983-ef0e87808d10")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
-					(reference "U42")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "U44")
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95c76ce-e75d-4a30-9688-1fede2ef2b85")
-		(property "Reference" "U43"
+		(property "Reference" "U23"
 			(at 188.8841 67.31 0)
 			(effects
 				(font
@@ -2066,37 +2050,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "ae7a87b4-111b-416e-ad53-f8d07732ffd7")
+			(uuid "d853d9df-11fe-4df3-9219-9ea012b3f4ec")
 		)
 		(pin "8"
-			(uuid "0fe02eaf-a53c-45ba-b221-77513f73d2d5")
+			(uuid "671eeca3-18b3-4a0b-bdd4-f5a3780f1f3e")
 		)
 		(pin "7"
-			(uuid "e959d9df-0946-48b3-86ff-b410f50fbb54")
+			(uuid "b391769a-1233-4edc-a33b-539d24e2a6d5")
 		)
 		(pin "1"
-			(uuid "2a06829a-b3b2-4ed1-86e1-e23cef9f3e28")
+			(uuid "e7d70ca9-e3b4-45a5-8fd9-55867d766650")
 		)
 		(pin "2"
-			(uuid "20259b17-7d4b-419f-93bb-a7b21c425644")
+			(uuid "2b522a77-8481-4a7d-8729-10eb0d598a49")
 		)
 		(pin "6"
-			(uuid "a1a42bed-428e-4d65-9000-f36469ac470f")
+			(uuid "6e313482-7ba3-4fb9-8c94-819f716fe5a5")
 		)
 		(pin "5"
-			(uuid "b46a97a2-a131-42d3-8762-6bac9ab61bc0")
+			(uuid "dd2d9562-b7ce-4393-a98e-5f2b00af1b24")
 		)
 		(pin "4"
-			(uuid "ce4e4306-ca18-4149-842d-ca20980d0377")
+			(uuid "c15068ed-dd75-43ac-8043-6e216a1f20f4")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
-					(reference "U43")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "U45")
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -2112,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d466c7bc-c4e2-4573-8896-8de7511d725b")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR051"
 			(at 186.69 64.77 0)
 			(effects
 				(font
@@ -2157,16 +2137,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f36e079-7ec9-4107-b6c6-51219037caa7")
+			(uuid "512c1233-9db0-4452-bab1-81b62b82016e")
 		)
 		(instances
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/577d4ac4-b29d-4707-bc46-b8b7b8fe12a7"
-					(reference "#PWR091")
+			(project "LCC_Booster"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/b324a729-c370-420a-b992-28ea70226130"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

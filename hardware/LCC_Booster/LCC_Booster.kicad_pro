@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -95,7 +95,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -122,7 +122,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -210,9 +210,13 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -444,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino_Nano_LCC_Boosters.kicad_pro",
+    "filename": "LCC_Booster.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -475,11 +479,28 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.44,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Logic Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
-        "via_diameter": 1.2,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -495,8 +516,8 @@
         "name": "Track Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 1.2,
+        "track_width": 0.44,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -508,7 +529,19 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
+        "netclass": "Logic Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Track Power",
         "pattern": "VTRACK"
       },
       {
@@ -516,24 +549,20 @@
         "pattern": "/out?_?"
       },
       {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/raw_dcc_?"
-      },
-      {
-        "netclass": "Power",
+        "netclass": "Logic Power",
         "pattern": "IOREF"
       },
       {
-        "netclass": "Power",
-        "pattern": "+5V"
+        "netclass": "Logic Power",
+        "pattern": "/pwr_?"
       },
       {
-        "netclass": "Power",
-        "pattern": "+3.3V"
+        "netclass": "Track Power",
+        "pattern": "/raw_dcc_?"
+      },
+      {
+        "netclass": "Track Power",
+        "pattern": "VIN"
       }
     ]
   },
@@ -542,7 +571,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "out",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -602,23 +631,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -650,14 +667,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -671,48 +680,28 @@
   },
   "sheets": [
     [
-      "fe98a12a-bd47-40d6-885d-b688d74230c5",
+      "e8524381-bb01-4107-93ec-8133e878a3da",
       "Root"
     ],
     [
-      "1ef3739a-e0bd-4760-9355-f7683ff26ed3",
+      "e60b84bd-96a5-4d6c-8d17-0e1e474b63f1",
       "Block Driver A"
     ],
     [
-      "3d8d37ff-781a-413e-a1ab-28c500d89104",
+      "d1a66b1c-451f-4d75-a19b-2f867b2d97ed",
       "Block Driver B"
     ],
     [
-      "16a61c21-6004-4b06-a528-55f114e1746e",
+      "3acc3266-052e-42c0-b497-1dc12936230d",
       "Block Driver C"
     ],
     [
-      "6a397e62-f7f7-479f-a22b-bd64bdce71a5",
+      "6939f6fa-d75b-4eb8-b744-4876a3adabd6",
       "Block Driver D"
     ],
     [
-      "2f82fc89-73d3-4730-8d80-9cbffa0f3f04",
-      "Block Driver E"
-    ],
-    [
-      "b7dd82f8-aa99-4d45-87f5-88a926787b31",
-      "Block Driver F"
-    ],
-    [
-      "93a28888-1310-4c9f-8fbc-c232d7084749",
-      "Block Driver G"
-    ],
-    [
-      "e96b593b-8b4d-4580-80fc-ff339af74856",
-      "Block Driver H"
-    ],
-    [
-      "cd83ab7d-0ee3-4612-a533-ef6c7ffe8ed9",
-      "CAN Interface 1"
-    ],
-    [
-      "577d4ac4-b29d-4707-bc46-b8b7b8fe12a7",
-      "CAN Interface 2"
+      "b324a729-c370-420a-b992-28ea70226130",
+      "CAN Interface"
     ]
   ],
   "text_variables": {}
