@@ -5603,7 +5603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ff7c2e5-ba1a-41b4-acff-236c6c25ae49")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5931,7 +5931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "506d0274-4bc1-4f78-b678-c28a3aa479a2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 107.95 135.89 0)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6073,7 +6073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60a058c3-209b-4ebc-b7bc-053b57d83217")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b1d5e5-75b9-4570-86ea-48752b7abf25")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 93.98 151.13 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6204,7 +6204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65f56871-c771-48c6-93ec-6eeb256835ae")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6337,7 +6337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78aea0ed-e0c8-4d5a-a1da-7a2830f13483")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 43.18 189.23 0)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6533,7 +6533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f78d4bd-c4da-4198-9112-4b6f3ec1d4fc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 33.02 24.13 0)
 			(effects
 				(font
@@ -6583,7 +6583,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6598,7 +6598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90b415e6-99b9-487e-a3cb-abeff8857025")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 45.72 24.13 0)
 			(effects
 				(font
@@ -6648,7 +6648,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6870,7 +6870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c90b100b-3ee6-4a0f-9c73-d06a3d79101d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ce13ef-ff37-4163-85af-043d20c4cf18")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 163.83 44.45 0)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7292,7 +7292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e38915b4-12d9-4126-b11a-788d70baca6b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -7342,7 +7342,7 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

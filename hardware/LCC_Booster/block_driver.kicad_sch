@@ -3818,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1784e43c-2316-47d1-bb20-124bd0edd70b")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 203.2 130.8099 0)
 			(effects
 				(font
@@ -3836,7 +3836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 198.882 132.08 90)
 			(effects
 				(font
@@ -3872,19 +3872,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2a7812-4808-41b5-b973-c4bb3fa1db07")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 161.29 57.1499 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 156.972 58.42 90)
 			(effects
 				(font
@@ -4104,19 +4104,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7647,7 +7647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3228c11-4937-4a98-9423-bbb5959e0df5")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 214.63 140.9699 0)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 210.312 142.24 90)
 			(effects
 				(font
@@ -7701,19 +7701,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
