@@ -571,7 +571,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../",
       "plot": "out",
       "pos_files": "",
       "specctra_dsn": "",

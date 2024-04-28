@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "e8524381-bb01-4107-93ec-8133e878a3da")
 	(paper "A4")
+	(title_block
+		(title "Arduino Nano LCC Booster")
+		(date "2024-04-28")
+		(rev "1.0")
+		(company "TMRC")
+		(comment 1 "Noah Paladino")
+	)
 	(lib_symbols
 		(symbol "54-00166:54-00166"
 			(pin_names
@@ -4734,6 +4741,17 @@
 		)
 		(uuid "2468b930-2de4-4ba0-8161-2cc1b0a1d560")
 	)
+	(label "cs"
+		(at 50.8 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2696faa0-4f33-45be-9700-67471916c474")
+	)
 	(label "pwr_n"
 		(at 53.34 124.46 0)
 		(fields_autoplaced yes)
@@ -4832,17 +4850,6 @@
 			(justify right bottom)
 		)
 		(uuid "424ad61f-d753-424c-94b4-d8dda56e3268")
-	)
-	(label "dir_A"
-		(at 50.8 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46310445-a6bf-46b7-a29d-8642ac8cf488")
 	)
 	(label "dcc_p"
 		(at 83.82 68.58 180)
@@ -5174,6 +5181,17 @@
 		)
 		(uuid "b23cc92f-e141-4af3-9407-f93d8d95085a")
 	)
+	(label "dir_A"
+		(at 25.4 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b43347c7-dfa3-4b70-9511-27c6d2950562")
+	)
 	(label "out1_D"
 		(at 109.22 93.98 0)
 		(fields_autoplaced yes)
@@ -5239,17 +5257,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2cc5695-6e67-4b7d-8aea-d9f236f1d38f")
-	)
-	(label "cs"
-		(at 25.4 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c304a388-ef99-4ff1-aa09-bd4bac733270")
 	)
 	(label "dcc_en_D"
 		(at 25.4 33.02 180)
