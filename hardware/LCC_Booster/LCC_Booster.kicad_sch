@@ -3850,16 +3850,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 59.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcf5979-8758-4f4e-a407-25b6e0b0cfc6")
-	)
-	(wire
-		(pts
 			(xy 125.73 48.26) (xy 137.16 48.26)
 		)
 		(stroke
@@ -3977,6 +3967,16 @@
 			(type default)
 		)
 		(uuid "9cc3453a-7140-4f10-acd0-6bd9e2f114fd")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d835eb3-d954-406f-8081-69571c271181")
 	)
 	(wire
 		(pts
@@ -4763,6 +4763,17 @@
 		)
 		(uuid "2ca6767b-d5fa-40ee-bfea-5c238b690fee")
 	)
+	(label "int"
+		(at 59.69 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f8c6ae3-1749-4d66-8b57-bb4f0312d4a6")
+	)
 	(label "out1_A"
 		(at 109.22 19.05 0)
 		(fields_autoplaced yes)
@@ -5214,7 +5225,7 @@
 		)
 		(uuid "bbefd820-b6e1-49c0-a610-691a31f1f626")
 	)
-	(label "~{led}"
+	(label "int"
 		(at 25.4 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5433,17 +5444,6 @@
 			(justify left bottom)
 		)
 		(uuid "ee0c6c4b-cc65-4a10-a1a8-d4dfb7c78db6")
-	)
-	(label "~{reset}"
-		(at 59.69 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0af2288-9f7e-4543-a2ee-d7ade8c8002e")
 	)
 	(label "can_gnd"
 		(at 53.34 134.62 0)
@@ -8194,7 +8194,7 @@
 			)
 			(uuid "ad08eab3-e14c-468c-a726-fe111649914b")
 		)
-		(pin "~{reset}" input
+		(pin "int" output
 			(at 58.42 99.06 0)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 				)
 				(justify right)
 			)
-			(uuid "bcbc8fb6-596f-4d18-977f-f7f2607ba4b7")
+			(uuid "edcddacd-e34d-4135-9c57-d9cc7be34fe2")
 		)
 		(instances
 			(project "LCC_Booster"

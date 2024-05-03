@@ -7,7 +7,7 @@ class LCCPacket {
         unsigned EventID;
         unsigned 
     public:
-        void SendPacket(int pin);
+        void SendPacket();
 
 
 };
