@@ -4,4 +4,5 @@
   (lib (name "A00_216_262_450")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/A00_216_262_450")(options "")(descr ""))
   (lib (name "54-00166")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/54-00166")(options "")(descr ""))
   (lib (name "GF-126-0159")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/GF-126-0159")(options "")(descr ""))
+  (lib (name "ECS_400_20_46X")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ECS_400_20_46X")(options "")(descr ""))
 )
