@@ -953,6 +953,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Isolator:ACPL-214-500E"
 			(pin_names
 				(offset 1.016)
@@ -2914,10 +3050,22 @@
 		(uuid "13a2b991-24e5-466e-8da1-5b78913f0693")
 	)
 	(junction
+		(at 193.04 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24034987-426d-4e40-9e5d-0e4f54fdf3c8")
+	)
+	(junction
 		(at 68.58 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d14a3c-85e8-4eaa-a1a1-3ce59357fff5")
+	)
+	(junction
+		(at 147.32 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e000bf5-e185-4257-8baf-8436900b67a3")
 	)
 	(junction
 		(at 68.58 133.35)
@@ -2926,10 +3074,22 @@
 		(uuid "3c14db80-3829-48aa-b14d-87ea2aeec651")
 	)
 	(junction
+		(at 193.04 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc3b749-ada6-4575-881a-db17821ab2e4")
+	)
+	(junction
 		(at 113.03 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a90b063-1c7f-490a-82ef-00e02c586f66")
+	)
+	(junction
+		(at 186.69 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b50f9dd-2528-4550-a5e6-fa3257657508")
 	)
 	(junction
 		(at 68.58 161.29)
@@ -3025,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00123477-814b-4545-8e4c-b5a520da3817")
+	)
+	(wire
+		(pts
 			(xy 219.71 129.54) (xy 219.71 130.81)
 		)
 		(stroke
@@ -3042,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "0358ff2c-5ed4-4e98-b9e1-6210e1a867b1")
-	)
-	(wire
-		(pts
-			(xy 148.59 135.89) (xy 148.59 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "055af227-b8be-4cc2-82fa-f2378a4ac67f")
 	)
 	(wire
 		(pts
@@ -3092,6 +3252,16 @@
 			(type default)
 		)
 		(uuid "108da4e5-5dc8-4e87-92ed-96f5a1722290")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 193.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116f7619-6ce8-4f7e-b54e-7289009a94d5")
 	)
 	(wire
 		(pts
@@ -3165,6 +3335,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 139.7) (xy 193.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e998db-31a4-4960-978d-80066aa40153")
+	)
+	(wire
+		(pts
+			(xy 161.29 144.78) (xy 149.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3477333b-9de0-46ad-a51c-b889ba7df6e5")
+	)
+	(wire
+		(pts
 			(xy 85.09 97.79) (xy 85.09 96.52)
 		)
 		(stroke
@@ -3172,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "384cb3ae-0b9b-4fef-abfa-4ae05232b9a9")
-	)
-	(wire
-		(pts
-			(xy 148.59 135.89) (xy 162.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee7f667-9f79-4c79-98c2-23dc1938c302")
 	)
 	(wire
 		(pts
@@ -3225,6 +3405,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 125.73) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a2ee52-00b3-491d-b739-f22e767292a8")
+	)
+	(wire
+		(pts
 			(xy 124.46 76.2) (xy 125.73 76.2)
 		)
 		(stroke
@@ -3252,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "61570226-fad3-4a25-8f02-e8a7c6ab326d")
+	)
+	(wire
+		(pts
+			(xy 149.86 144.78) (xy 149.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6416bb60-15fc-489e-918a-f1d1289e7382")
 	)
 	(wire
 		(pts
@@ -3325,6 +3525,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b576b37-6020-4b3f-95f6-92331d703741")
+	)
+	(wire
+		(pts
 			(xy 106.68 133.35) (xy 107.95 133.35)
 		)
 		(stroke
@@ -3332,6 +3542,16 @@
 			(type default)
 		)
 		(uuid "7b9c8e01-5d73-447f-9660-5367c07eeb33")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 193.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c14d6a7-cbed-4f58-9dda-49ee6c59804e")
 	)
 	(wire
 		(pts
@@ -3375,13 +3595,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 130.81) (xy 194.31 129.54)
+			(xy 193.04 147.32) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d56f513-5dce-408b-874f-7f758609788c")
+		(uuid "959f5f00-1aa2-4f9a-9b18-6ad0c2f6e269")
 	)
 	(wire
 		(pts
@@ -3395,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e29bb5c-efe0-40b5-aad7-944bd3b5915f")
+	)
+	(wire
+		(pts
 			(xy 153.67 76.2) (xy 154.94 76.2)
 		)
 		(stroke
@@ -3402,16 +3632,6 @@
 			(type default)
 		)
 		(uuid "9e627714-c159-4263-9e1d-269494f0ec3e")
-	)
-	(wire
-		(pts
-			(xy 124.46 50.8) (xy 125.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b122d8-ea22-4cf3-8c3d-e3bd6f72cdce")
 	)
 	(wire
 		(pts
@@ -3515,13 +3735,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 194.31 130.81)
+			(xy 186.69 133.35) (xy 186.69 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9539628-9b17-45d2-9ae6-c5647d8355c4")
+		(uuid "c67711f7-c404-4bea-b095-43d92718cbb7")
+	)
+	(wire
+		(pts
+			(xy 176.53 139.7) (xy 193.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca48b1cb-a0c0-4ebb-8c83-a4c6df1f473b")
 	)
 	(wire
 		(pts
@@ -3552,6 +3782,16 @@
 			(type default)
 		)
 		(uuid "cdc0376d-c6fe-4aa7-96bd-e956791c1288")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0c6972-0b2b-496f-9d5f-b604d3db646a")
 	)
 	(wire
 		(pts
@@ -3605,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 161.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61cf3f9-9cc4-44e5-b834-26196a5c4e8d")
+	)
+	(wire
+		(pts
 			(xy 85.09 96.52) (xy 87.63 96.52)
 		)
 		(stroke
@@ -3652,6 +3902,16 @@
 			(type default)
 		)
 		(uuid "f5a29814-9821-48cb-a779-e6a2454496bf")
+	)
+	(wire
+		(pts
+			(xy 147.32 138.43) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f834793c-3516-4152-8261-16401eaaf2eb")
 	)
 	(wire
 		(pts
@@ -3718,8 +3978,8 @@
 		(uuid b5f2c29d-0c6b-46a1-97d9-0f10c757394e)
 	)
 	(rectangle
-		(start 139.7 120.65)
-		(end 203.2 152.4)
+		(start 138.43 115.57)
+		(end 201.93 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -3727,7 +3987,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c0ad69d7-69fb-434d-911f-b53cce82333e)
+		(uuid c15bb4c9-9440-4c30-8d9a-02645b9ffcc4)
 	)
 	(rectangle
 		(start 208.28 120.65)
@@ -3743,7 +4003,7 @@
 	)
 	(text_box "(This turns the DCC waveform into a digital logic signal)"
 		(exclude_from_sim no)
-		(at 152.4 146.05 0)
+		(at 151.13 146.05 0)
 		(size 39.37 6.35)
 		(stroke
 			(width -0.0001)
@@ -3757,7 +4017,18 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ea1f1f69-4037-422f-b70a-d8e281430e40")
+		(uuid "9c331fc8-83d9-4459-a536-08a4e5179c22")
+	)
+	(label "raw_dcc_n"
+		(at 161.29 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "028027cd-c8ee-41cf-871d-c17e66ed22f7")
 	)
 	(label "can_rx"
 		(at 33.02 72.39 180)
@@ -3870,7 +4141,7 @@
 		(uuid "381332f9-1cbf-447f-acf1-a513fcd9909f")
 	)
 	(label "dcc_p"
-		(at 124.46 50.8 180)
+		(at 124.46 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3912,17 +4183,6 @@
 			(justify left bottom)
 		)
 		(uuid "558bc501-14f0-447b-8854-6bfd47ee894e")
-	)
-	(label "dcc_p"
-		(at 177.8 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c8a1a71-5d23-41fd-9af5-fb391d1f2bca")
 	)
 	(label "can_tx"
 		(at 33.02 63.5 180)
@@ -4022,6 +4282,17 @@
 			(justify left bottom)
 		)
 		(uuid "9a40954b-7ab2-44cb-ba53-7b5a0038b922")
+	)
+	(label "dcc_p"
+		(at 176.53 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c5e615a-8218-47da-9e10-488b695164fa")
 	)
 	(label "can_h"
 		(at 57.15 146.05 0)
@@ -4133,6 +4404,28 @@
 		)
 		(uuid "c9af6310-7e52-4262-ac22-0e4f1af96466")
 	)
+	(label "dcc_n"
+		(at 124.46 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc07aa59-b830-4bcf-a472-a500b62d9c6d")
+	)
+	(label "raw_dcc_p"
+		(at 161.29 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eada975d-600d-474a-ae4b-3c45830b1b16")
+	)
 	(label "dir_A"
 		(at 124.46 63.5 180)
 		(fields_autoplaced yes)
@@ -4166,17 +4459,6 @@
 		)
 		(uuid "f142d607-9b8e-4751-93eb-8dbdfaaa3ab8")
 	)
-	(label "raw_dcc_p"
-		(at 162.56 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2515557-8393-49d2-8ceb-94eb4e6accfd")
-	)
 	(label "can_gnd"
 		(at 57.15 176.53 0)
 		(fields_autoplaced yes)
@@ -4198,6 +4480,17 @@
 			(justify left bottom)
 		)
 		(uuid "f9410677-9e00-48fa-b37d-21aa6c8469d6")
+	)
+	(label "dcc_n"
+		(at 176.53 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f96f49c2-2ddd-4768-9f4e-7eae0e87d16f")
 	)
 	(symbol
 		(lib_id "54-00166:54-00166")
@@ -4316,6 +4609,75 @@
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08de286b-30d2-4730-b042-0948f46d4c21")
+		(property "Reference" "C8"
+			(at 189.23 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C100n"
+			(at 189.23 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 187.6552 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f0a61e6-25eb-4e6f-8ecb-2e0b19efe844")
+		)
+		(pin "1"
+			(uuid "7dbd2476-7a71-41f6-97fb-3304d62ed757")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4722,52 +5084,54 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 144.78 0)
+		(lib_id "Isolator:ACPL-214-500E")
+		(at 168.91 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e63347a-8eaf-4dbe-a2cb-4653290a9605")
-		(property "Reference" "#PWR010"
-			(at 148.59 151.13 0)
+		(uuid "36d98e4b-f0e3-48bf-9273-e705c41c990a")
+		(property "Reference" "U1"
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "ACPL-214-500E"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 148.59 149.86 0)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AV02-0469EN"
+			(at 169.545 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 148.59 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 144.78 0)
+		(property "Description" "AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4"
+			(at 168.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,12 +5140,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "35c58b68-415e-4f55-a83a-58b6bbb3374f")
+			(uuid "3e6263fb-ff6c-4a2f-813e-99b8aaa1c172")
+		)
+		(pin "3"
+			(uuid "f42203de-3666-4a71-b494-5220fdadd692")
+		)
+		(pin "2"
+			(uuid "e8d40213-6d8d-47c0-b11f-da282829431a")
+		)
+		(pin "4"
+			(uuid "9d41b9a1-567f-4d4b-a090-91b184564185")
 		)
 		(instances
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
-					(reference "#PWR010")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4921,6 +5294,72 @@
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
 					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cabc1a5-c51b-4116-87ad-8b3d6cab870b")
+		(property "Reference" "#PWR010"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a453e65a-cd17-4de4-bcd7-1bf691831f34")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5356,6 +5795,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:ACPL-214-500E")
+		(at 168.91 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d53ada8-c12a-42d0-b747-34be8df7d062")
+		(property "Reference" "U4"
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACPL-214-500E"
+			(at 168.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AV02-0469EN"
+			(at 169.545 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4"
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f79093e-38cf-4fb5-9d6a-66a89c30e1c5")
+		)
+		(pin "3"
+			(uuid "a79eb54a-f965-4144-beb4-5cd1c6cc28bb")
+		)
+		(pin "2"
+			(uuid "ec98911b-fd6d-4fb5-91b0-74b3c29cb3a8")
+		)
+		(pin "4"
+			(uuid "70a9bffa-42c8-4a42-8f5a-a806f1e5fd45")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86347e93-8c11-460a-bd4c-9fac64613294")
+		(property "Reference" "#PWR026"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "IOREF"
+			(at 193.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1c04576-4422-43c7-a68a-9b07f5e25777")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 92.71 43.18 0)
 		(unit 1)
@@ -5421,6 +6003,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 193.04 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a326e57-edb8-4fde-bece-ee48a5711ea9")
+		(property "Reference" "C9"
+			(at 196.85 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C100n"
+			(at 196.85 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 194.0052 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8765fb28-3f49-40aa-af98-7e749d32e4d2")
+		)
+		(pin "1"
+			(uuid "8e2f222d-5160-47e9-a8df-48f9640b6902")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b736a24-d433-44e8-b7f0-33eea5f2e174")
+		(property "Reference" "#PWR027"
+			(at 193.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5251def4-c599-47e5-8010-ae381d8c7e21")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 142.24 0)
 		(unit 1)
@@ -5480,149 +6198,6 @@
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1f5c5a-1954-408f-ba4e-c40595fd7d7a")
-		(property "Reference" "#PWR011"
-			(at 194.31 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "IOREF"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7e54d9c-35e9-4829-8b9e-e92c8464a51b")
-		)
-		(instances
-			(project "Uno_R4_LCC_Shield"
-				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:ACPL-214-500E")
-		(at 170.18 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1a5cfef-616a-47b5-a251-6dfd58edbabc")
-		(property "Reference" "U1"
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACPL-214-500E"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
-			(at 148.59 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/doc/AV02-0469EN"
-			(at 170.815 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4"
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63faae4d-c22c-44b6-8b94-64a0d78bdaab")
-		)
-		(pin "3"
-			(uuid "123ab42c-b252-4939-b74c-15cbd732f6bd")
-		)
-		(pin "2"
-			(uuid "bc9850a9-c1c1-43d1-b0a0-8b48c9f7f73e")
-		)
-		(pin "4"
-			(uuid "65f71361-7090-4555-b357-1dd1d89d63fd")
-		)
-		(instances
-			(project "Uno_R4_LCC_Shield"
-				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5761,6 +6336,72 @@
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d34fa496-c601-4ec1-8cbc-9804557c240f")
+		(property "Reference" "#PWR011"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55de9360-a626-4e2b-8263-3c2f3f7cf914")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6159,6 +6800,124 @@
 		)
 	)
 	(sheet
+		(at 125.73 46.99)
+		(size 27.94 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59ba7661-48ad-4bd7-84ac-2aba06b4c866")
+		(property "Sheetname" "Block Driver A"
+			(at 125.73 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_driver.kicad_sch"
+			(at 125.73 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6f44fec-50cd-48f6-8058-cfb2ba59d770")
+		)
+		(pin "OUT2" output
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "228646c1-73c0-4660-ad99-fa5f32d04215")
+		)
+		(pin "DCC_p" input
+			(at 125.73 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c0efa83-1b60-40c1-aa62-bb89f4fcba70")
+		)
+		(pin "REVERSE" input
+			(at 125.73 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3126622d-cf94-4994-ab3d-e35e4ed8d58e")
+		)
+		(pin "DCC_EN" input
+			(at 125.73 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41c0212c-5e54-42db-a8d4-ac89320e7d60")
+		)
+		(pin "PWM" input
+			(at 125.73 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "656891f1-b9be-485e-a077-c71b67ce7960")
+		)
+		(pin "I_SENSE" output
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "335776e7-b812-45c5-90bd-d4a2f279645d")
+		)
+		(pin "DCC_n" input
+			(at 125.73 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20a2cf84-5d6e-4f90-b593-7473a9d4f88a")
+		)
+		(instances
+			(project "Uno_R4_LCC_Shield"
+				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 125.73 73.66)
 		(size 27.94 7.62)
 		(fields_autoplaced yes)
@@ -6232,114 +6991,6 @@
 			(project "Uno_R4_LCC_Shield"
 				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 125.73 48.26)
-		(size 27.94 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d45e5ee8-c444-44d7-ab15-b3c2e42f3176")
-		(property "Sheetname" "Block Driver A"
-			(at 125.73 47.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "block_driver.kicad_sch"
-			(at 125.73 66.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT1" output
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "09d1ba90-b6bb-4001-a903-22688706bea0")
-		)
-		(pin "OUT2" output
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "aa3b8138-7f9e-4496-9b22-a07def1deb02")
-		)
-		(pin "DCC_p" input
-			(at 125.73 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bf56f55a-5f3f-4468-8a6a-6adc46ae1236")
-		)
-		(pin "REVERSE" input
-			(at 125.73 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4af1ca5a-e40e-4b40-8b09-2f08bc917ac1")
-		)
-		(pin "DCC_EN" input
-			(at 125.73 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "13efbdcf-961a-4ade-b1be-c8e05643ac9e")
-		)
-		(pin "PWM" input
-			(at 125.73 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1b99f192-ba0f-476b-b702-167ca5aa5f65")
-		)
-		(pin "I_SENSE" output
-			(at 153.67 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "21e52c99-795b-4afd-b329-5a5d4c0c270b")
-		)
-		(instances
-			(project "Uno_R4_LCC_Shield"
-				(path "/b1639c3d-17d4-4cf9-9717-ec41a0dc026f"
-					(page "2")
 				)
 			)
 		)

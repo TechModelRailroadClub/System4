@@ -1,0 +1,73 @@
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.2
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7700789a13f0>
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U4 as a reference
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U4'
+Located on: ['Block Driver A']
+With filenames: ['block_driver.kicad_sch']
+With sheet_id:['Block Driver A']
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U10', ['Block Driver D']), ('U8', ['Block Driver C']), ('U6', ['Block Driver B']), ('U4', ['Block Driver A'])]
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Block Driver A', file:'block_driver.kicad_sch'
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['Block Driver B'], ['Block Driver C'], ['Block Driver D']]
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['Block Driver A']
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1769, 190)
+05-13 22:26:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1330, 190)
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Block Driver A', file:'block_driver.kicad_sch'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['Block Driver B'], ['Block Driver C'], ['Block Driver D']]
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['Block Driver B'], ['Block Driver C'], ['Block Driver D']]
+on level: ['Block Driver A']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+05-13 22:26:46 root 332:updating GUI message: 'Preparing for replication'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+05-13 22:26:46 root 337:updating GUI with: 0
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+05-13 22:26:46 root 332:updating GUI message: 'Replicating footprints'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['Block Driver B']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['Block Driver C']
+05-13 22:26:46 root 337:updating GUI with: 61
+05-13 22:26:46 root 337:updating GUI with: 64
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['Block Driver D']
+05-13 22:26:46 root 332:updating GUI message: 'Replicating tracks'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+05-13 22:26:46 root 337:updating GUI with: 0
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['Block Driver B']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver B'] :[('/out2_A', '/out2_B'), ('/dir_A', '/dir_B'), ('/out1_A', '/out1_B'), ('/dcc_en_A', '/dcc_en_B'), ('GND', 'GND'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('Net-(JP4-B)', 'Net-(JP5-B)'), ('/sense_A', '/sense_B'), ('/dcc_n', '/dcc_n'), ('Net-(U4-CPH)', 'Net-(U6-CPH)'), ('Net-(U4-VCP)', 'Net-(U6-VCP)'), ('/pwm_A', '/pwm_B'), ('Net-(U3-1Y)', 'Net-(U5-1Y)'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(U4-FAULT_N)', 'Net-(U6-FAULT_N)'), ('Net-(U3-2Y)', 'Net-(U5-2Y)'), ('Net-(U4-CPL)', 'Net-(U6-CPL)')]
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['Block Driver C']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver C'] :[('Net-(U4-FAULT_N)', 'Net-(U8-FAULT_N)'), ('/pwm_A', '/pwm_C'), ('/dir_A', '/dir_C'), ('Net-(U4-CPL)', 'Net-(U8-CPL)'), ('Net-(U4-CPH)', 'Net-(U8-CPH)'), ('/out2_A', '/out2_C'), ('GND', 'GND'), ('/dcc_en_A', '/dcc_en_C'), ('/out1_A', '/out1_C'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('/sense_A', '/sense_C'), ('Net-(U3-1Y)', 'Net-(U7-1Y)'), ('/dcc_n', '/dcc_n'), ('Net-(U4-VCP)', 'Net-(U8-VCP)'), ('Net-(U3-2Y)', 'Net-(U7-2Y)'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(JP4-B)', 'Net-(JP6-B)')]
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['Block Driver D']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver D'] :[('Net-(U4-FAULT_N)', 'Net-(U10-FAULT_N)'), ('Net-(U3-1Y)', 'Net-(U10-EN_IN1)'), ('Net-(JP4-B)', 'Net-(JP7-B)'), ('GND', 'GND'), ('/out1_A', '/out1_D'), ('/dcc_en_A', '/dcc_en_D'), ('Net-(U4-CPL)', 'Net-(U10-CPL)'), ('Net-(U4-CPH)', 'Net-(U10-CPH)'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('/dir_A', '/dir_D'), ('/dcc_n', '/dcc_n'), ('/sense_A', '/sense_D'), ('Net-(U3-2Y)', 'Net-(U10-PH_IN2)'), ('/pwm_A', '/pwm_D'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(U4-VCP)', 'Net-(U10-VCP)'), ('/out2_A', '/out2_D')]
+05-13 22:26:46 root 332:updating GUI message: 'Replicating zones'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+05-13 22:26:46 root 337:updating GUI with: 0
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['Block Driver B']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver B'] :[('/out2_A', '/out2_B'), ('/dir_A', '/dir_B'), ('/out1_A', '/out1_B'), ('/dcc_en_A', '/dcc_en_B'), ('GND', 'GND'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('Net-(JP4-B)', 'Net-(JP5-B)'), ('/sense_A', '/sense_B'), ('/dcc_n', '/dcc_n'), ('Net-(U4-CPH)', 'Net-(U6-CPH)'), ('Net-(U4-VCP)', 'Net-(U6-VCP)'), ('/pwm_A', '/pwm_B'), ('Net-(U3-1Y)', 'Net-(U5-1Y)'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(U4-FAULT_N)', 'Net-(U6-FAULT_N)'), ('Net-(U3-2Y)', 'Net-(U5-2Y)'), ('Net-(U4-CPL)', 'Net-(U6-CPL)')]
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['Block Driver C']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver C'] :[('Net-(U4-FAULT_N)', 'Net-(U8-FAULT_N)'), ('/pwm_A', '/pwm_C'), ('/dir_A', '/dir_C'), ('Net-(U4-CPL)', 'Net-(U8-CPL)'), ('Net-(U4-CPH)', 'Net-(U8-CPH)'), ('/out2_A', '/out2_C'), ('GND', 'GND'), ('/dcc_en_A', '/dcc_en_C'), ('/out1_A', '/out1_C'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('/sense_A', '/sense_C'), ('Net-(U3-1Y)', 'Net-(U7-1Y)'), ('/dcc_n', '/dcc_n'), ('Net-(U4-VCP)', 'Net-(U8-VCP)'), ('Net-(U3-2Y)', 'Net-(U7-2Y)'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(JP4-B)', 'Net-(JP6-B)')]
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['Block Driver D']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Block Driver D'] :[('Net-(U4-FAULT_N)', 'Net-(U10-FAULT_N)'), ('Net-(U3-1Y)', 'Net-(U10-EN_IN1)'), ('Net-(JP4-B)', 'Net-(JP7-B)'), ('GND', 'GND'), ('/out1_A', '/out1_D'), ('/dcc_en_A', '/dcc_en_D'), ('Net-(U4-CPL)', 'Net-(U10-CPL)'), ('Net-(U4-CPH)', 'Net-(U10-CPH)'), ('/dcc_p', '/dcc_p'), ('IOREF', 'IOREF'), ('/dir_A', '/dir_D'), ('/dcc_n', '/dcc_n'), ('/sense_A', '/sense_D'), ('Net-(U3-2Y)', 'Net-(U10-PH_IN2)'), ('/pwm_A', '/pwm_D'), ('', ''), ('VTRACK', 'VTRACK'), ('Net-(U4-VCP)', 'Net-(U10-VCP)'), ('/out2_A', '/out2_D')]
+05-13 22:26:46 root 332:updating GUI message: 'Replicating text'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['Block Driver B']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['Block Driver C']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['Block Driver D']
+05-13 22:26:46 root 332:updating GUI message: 'Replicating drawings'
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+05-13 22:26:46 root 337:updating GUI with: 0
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['Block Driver B']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['Block Driver C']
+05-13 22:26:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['Block Driver D']
+05-13 22:26:46 root 332:updating GUI message: 'Removing duplicates'
+05-13 22:26:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

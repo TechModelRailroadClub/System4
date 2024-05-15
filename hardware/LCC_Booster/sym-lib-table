@@ -7,4 +7,5 @@
   (lib (name "2024-05-05_02-40-09")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_MCP251863T-H-SS/KiCADv6/2024-05-05_02-40-09.kicad_sym")(options "")(descr ""))
   (lib (name "2024-05-05_05-04-59")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_MCP2518FDT-E-SL/KiCADv6/2024-05-05_05-04-59.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-400-20-46X")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ECS_400_20_46X/ECS-400-20-46X.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC253DR")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_SN74HC253DR/KiCADv6/2024-05-13_08-12-29.kicad_sym")(options "")(descr ""))
 )
