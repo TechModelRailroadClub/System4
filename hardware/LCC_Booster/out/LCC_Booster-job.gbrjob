@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-05-14T20:52:01-05:00"
+    "CreationDate": "2024-09-06T01:32:18-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "LCC_Booster",
       "GUID": "4c43435f-426f-46f7-9374-65722e6b6963",
-      "Revision": "2"
+      "Revision": "3"
     },
     "Size": {
       "X": 90.1,

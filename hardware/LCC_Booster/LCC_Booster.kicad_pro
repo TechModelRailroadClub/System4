@@ -59,6 +59,7 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|64825000|98375000|83b8b404-8eff-44b5-a203-808266504b37|5f5e49e5-9099-44e7-bb3d-b56b04bfbb3e",
         "silk_over_copper|104676533|104060000|24fd2b65-43fe-43a3-a464-6db8241c77b4|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|104681782|73000000|0af714e1-5175-48dc-bba3-1453621ca1a3|00000000-0000-0000-0000-000000000000"
       ],
@@ -82,6 +83,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -586,6 +588,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -748,6 +751,10 @@
     [
       "b324a729-c370-420a-b992-28ea70226130",
       "CAN Interface"
+    ],
+    [
+      "7d5f009d-9fd6-4c01-a7fb-4265fc081441",
+      "DCC Isolator"
     ]
   ],
   "text_variables": {}

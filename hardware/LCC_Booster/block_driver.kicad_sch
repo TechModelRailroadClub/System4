@@ -2675,7 +2675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07f21630-433b-4d41-bf8e-b392e79498d9")
-		(property "Reference" "JP4"
+		(property "Reference" "JP6"
 			(at 181.102 142.24 90)
 			(effects
 				(font
@@ -2729,20 +2729,20 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "JP4")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "JP5")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "JP6")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
 					(reference "JP7")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "JP5")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1784e43c-2316-47d1-bb20-124bd0edd70b")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 203.2 130.8099 0)
 			(effects
 				(font
@@ -2811,14 +2811,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "R8")
 					(unit 1)
@@ -2827,34 +2819,42 @@
 					(reference "R11")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "R2")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "R9")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "R12")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "R15")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "R18")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "R21")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "R24")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c1da41-43f8-4cb3-90d8-45f42773145a")
-		(property "Reference" "C2"
+		(property "Reference" "C16"
 			(at 156.21 101.5999 0)
 			(effects
 				(font
@@ -2927,14 +2927,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C2")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C9")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C16")
 					(unit 1)
@@ -2943,34 +2935,42 @@
 					(reference "C23")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C2")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C13")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C23")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C33")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C43")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C53")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C63")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -2990,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2a7812-4808-41b5-b973-c4bb3fa1db07")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 161.29 57.1499 0)
 			(effects
 				(font
@@ -3043,14 +3043,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "R7")
 					(unit 1)
@@ -3059,34 +3051,42 @@
 					(reference "R10")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "R1")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "R8")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "R11")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "R14")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "R17")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "R20")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "R23")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3106,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b637400-d63e-475a-9c33-f1f5a10da7a5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 189.23 34.29 0)
 			(effects
 				(font
@@ -3155,14 +3155,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR029")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR037")
 					(unit 1)
@@ -3171,34 +3163,42 @@
 					(reference "#PWR045")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR021")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR035")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR043")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR051")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR059")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR067")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3218,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a9e5bb-65f0-4d9a-9d82-98e3777b7638")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR034"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -3267,14 +3267,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR026")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR034")
 					(unit 1)
@@ -3283,34 +3275,42 @@
 					(reference "#PWR042")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR018")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR039")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR047")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR055")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR063")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3330,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44880239-a424-46fc-be16-fce7a6aec690")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -3425,20 +3425,20 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "U5")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "U7")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3453,7 +3453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a700354-8d00-4b87-b11d-c1f6259fdfb9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR035"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -3503,14 +3503,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR027")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR035")
 					(unit 1)
@@ -3519,34 +3511,42 @@
 					(reference "#PWR043")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR019")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR033")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR041")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR049")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR057")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR065")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3566,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f639da0-6edf-40e0-89e7-0b8526047328")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at 193.04 34.2899 0)
 			(effects
 				(font
@@ -3619,14 +3619,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C11")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C18")
 					(unit 1)
@@ -3635,34 +3627,42 @@
 					(reference "C25")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C4")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C17")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C27")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C37")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C47")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C57")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C37")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C67")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C57")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3681,7 +3681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ace01f2-7197-40e9-ad31-3e7413677b86")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -3731,20 +3731,20 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR025")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
 					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70fc4da0-daca-46e3-bd91-8b0e9f543554")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 196.85 48.26 0)
 			(effects
 				(font
@@ -3808,14 +3808,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR022")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR030")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR038")
 					(unit 1)
@@ -3824,34 +3816,42 @@
 					(reference "#PWR046")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR022")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR036")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR044")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR052")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR060")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR068")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3871,7 +3871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e53fb9d-1531-4824-b4e9-aef387928513")
-		(property "Reference" "C1"
+		(property "Reference" "C15"
 			(at 144.78 31.7499 0)
 			(effects
 				(font
@@ -3924,14 +3924,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C1")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C15")
 					(unit 1)
@@ -3940,34 +3932,42 @@
 					(reference "C22")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C1")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C2")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C12")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C22")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C32")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C42")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C52")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C62")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -3987,7 +3987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f920832-400b-4061-92a6-48440b1bea6e")
-		(property "Reference" "C5"
+		(property "Reference" "C19"
 			(at 208.28 34.2899 0)
 			(effects
 				(font
@@ -4040,14 +4040,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C5")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C12")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C19")
 					(unit 1)
@@ -4056,34 +4048,42 @@
 					(reference "C26")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C5")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C18")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C28")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C38")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C48")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C58")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C68")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C58")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4103,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10958e8-af97-47ef-a9e0-f6a799cb36ad")
-		(property "Reference" "C6"
+		(property "Reference" "C20"
 			(at 231.14 91.4399 0)
 			(effects
 				(font
@@ -4156,14 +4156,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C13")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C20")
 					(unit 1)
@@ -4172,34 +4164,42 @@
 					(reference "C27")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C6")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C19")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C29")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C39")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C49")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C59")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C69")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4219,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5502a5a-9b2f-4228-8975-016093bd26f0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR036"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -4268,14 +4268,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR028")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR036")
 					(unit 1)
@@ -4284,34 +4276,42 @@
 					(reference "#PWR044")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR020")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR034")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR042")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR050")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR058")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR066")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4331,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf516568-f311-4654-8b35-91a82e5e3163")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR039"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -4380,14 +4380,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR039")
 					(unit 1)
@@ -4396,34 +4388,42 @@
 					(reference "#PWR047")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR023")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR037")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR045")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR053")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR061")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR069")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4443,7 +4443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d08c9661-9050-4b0e-8d9f-42b46004ad26")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR040"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -4492,14 +4492,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "#PWR032")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "#PWR040")
 					(unit 1)
@@ -4508,34 +4500,42 @@
 					(reference "#PWR048")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "#PWR024")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "#PWR038")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "#PWR046")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "#PWR054")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "#PWR062")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "#PWR070")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4555,7 +4555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2de5f4d-4762-423d-97dc-559eda2dabb7")
-		(property "Reference" "C7"
+		(property "Reference" "C21"
 			(at 234.95 137.1599 0)
 			(effects
 				(font
@@ -4608,14 +4608,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C14")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C21")
 					(unit 1)
@@ -4624,34 +4616,42 @@
 					(reference "C28")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C7")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C20")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C30")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C40")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C50")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C60")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C70")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C60")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4671,7 +4671,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3228c11-4937-4a98-9423-bbb5959e0df5")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 214.63 140.9699 0)
 			(effects
 				(font
@@ -4724,14 +4724,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "R6")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "R9")
 					(unit 1)
@@ -4740,34 +4732,42 @@
 					(reference "R12")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "R3")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "R10")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "R13")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "R16")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "R19")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "R22")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "R25")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4787,7 +4787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f664f75f-561c-4878-8304-27f69f48361c")
-		(property "Reference" "C3"
+		(property "Reference" "C17"
 			(at 175.26 60.9599 0)
 			(effects
 				(font
@@ -4840,14 +4840,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "C10")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "C17")
 					(unit 1)
@@ -4856,34 +4848,42 @@
 					(reference "C24")
 					(unit 1)
 				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "C3")
+					(unit 1)
+				)
 			)
 			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "C16")
-					(unit 1)
-				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "C26")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "C36")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "C46")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "C56")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "C66")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
@@ -4903,7 +4903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2124b5-49f9-4c68-898e-f4296cc60d61")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 200.66 48.26 0)
 			(effects
 				(font
@@ -5001,14 +5001,6 @@
 		)
 		(instances
 			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "U6")
-					(unit 1)
-				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
 					(reference "U8")
 					(unit 1)
@@ -5017,34 +5009,42 @@
 					(reference "U10")
 					(unit 1)
 				)
-			)
-			(project "Arduino_Nano_LCC_Boosters"
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
 					(reference "U6")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
-					(reference "U11")
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "U4")
 					(unit 1)
 				)
+			)
+			(project "Arduino_Nano_LCC_Boosters"
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/16a61c21-6004-4b06-a528-55f114e1746e"
 					(reference "U16")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
-					(reference "U21")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/1ef3739a-e0bd-4760-9355-f7683ff26ed3"
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/2f82fc89-73d3-4730-8d80-9cbffa0f3f04"
 					(reference "U26")
 					(unit 1)
 				)
-				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
-					(reference "U31")
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/3d8d37ff-781a-413e-a1ab-28c500d89104"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/6a397e62-f7f7-479f-a22b-bd64bdce71a5"
+					(reference "U21")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/93a28888-1310-4c9f-8fbc-c232d7084749"
 					(reference "U36")
+					(unit 1)
+				)
+				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/b7dd82f8-aa99-4d45-87f5-88a926787b31"
+					(reference "U31")
 					(unit 1)
 				)
 				(path "/fe98a12a-bd47-40d6-885d-b688d74230c5/e96b593b-8b4d-4580-80fc-ff339af74856"
