@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "4178d449-4afb-4b59-9a70-baeacfdcaf93")
 	(paper "A4")
+	(title_block
+		(title "Arduino Nano LCC Booster")
+		(date "2024-09-10")
+		(rev "4")
+		(company "TMRC")
+		(comment 1 "Noah Paladino")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

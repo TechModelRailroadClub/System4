@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Nano LCC Booster")
-		(date "2024-05-14")
-		(rev "2")
+		(date "2024-09-10")
+		(rev "4")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -2099,7 +2099,7 @@
 		)
 		(uuid "9db4fe65-df71-479f-ab2f-d77f79c2af3f")
 	)
-	(hierarchical_label "cs_canrx"
+	(hierarchical_label "cs-canrx"
 		(shape bidirectional)
 		(at 92.71 82.55 180)
 		(fields_autoplaced yes)
@@ -2147,7 +2147,7 @@
 		)
 		(uuid "d7d059ba-d309-4c5d-9155-dbee714d4f04")
 	)
-	(hierarchical_label "int_cantx"
+	(hierarchical_label "int-cantx"
 		(shape bidirectional)
 		(at 160.02 85.09 270)
 		(fields_autoplaced yes)

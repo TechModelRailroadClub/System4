@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Nano LCC Booster")
-		(date "2024-05-14")
-		(rev "2")
+		(date "2024-09-10")
+		(rev "4")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -704,7 +704,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -719,7 +719,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Bridged"
+			(property "Value" "SolderJumper_2_Open"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -745,7 +745,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,7 +763,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -772,18 +772,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SolderJumper_2_Open_0_1"
 				(arc
 					(start -0.254 1.016)
 					(mid -1.2656 0)
@@ -857,7 +846,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1627,6 +1616,12 @@
 		(uuid "c4e657b8-33d9-4068-b0e4-a54e062db2c4")
 	)
 	(junction
+		(at 158.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3b7d355-bd56-47f7-8158-27c3c4abf9f6")
+	)
+	(junction
 		(at 54.61 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1883,6 +1878,16 @@
 			(type default)
 		)
 		(uuid "52e6710a-6120-433a-98a2-7ce304d43b8f")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536a61f5-777d-4401-9091-5f1ecd1fcbed")
 	)
 	(wire
 		(pts
@@ -2546,6 +2551,18 @@
 		)
 		(uuid "18fa675f-4a3d-4dc8-83f0-6a1a64a5205a")
 	)
+	(hierarchical_label "nFAULT"
+		(shape output)
+		(at 142.24 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19324347-49e9-41f3-a1d8-f4a38ab6736f")
+	)
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 228.6 73.66 0)
@@ -2667,7 +2684,7 @@
 		(uuid "f4b4becf-fc7f-4cac-b140-d0f50380366b")
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 186.69 142.24 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2684,7 +2701,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Bridged"
+		(property "Value" "SolderJumper_2"
 			(at 189.23 143.5099 90)
 			(effects
 				(font
@@ -2694,7 +2711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -2712,7 +2729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -2767,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R1k43"
+		(property "Value" "R1k430"
 			(at 203.2 133.3499 0)
 			(effects
 				(font
