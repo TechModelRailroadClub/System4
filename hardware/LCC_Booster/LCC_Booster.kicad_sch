@@ -2885,24 +2885,6 @@
 		(uuid "2b706fbb-e620-4444-9446-7a33e323e0cc")
 	)
 	(junction
-		(at 59.69 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cf2f9f9-b866-40d0-9fad-701d26e6f7c6")
-	)
-	(junction
-		(at 231.14 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55e4ed23-a93f-4e08-9809-dd7a61ba341c")
-	)
-	(junction
-		(at 59.69 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71c91a8b-13ef-443a-856f-98b451fe7dfa")
-	)
-	(junction
 		(at 135.89 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2933,12 +2915,6 @@
 		(uuid "a8699f49-6b39-4bc3-8d95-41809b631387")
 	)
 	(junction
-		(at 59.69 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce933c86-6fc4-4c81-9956-ef2ada61d965")
-	)
-	(junction
 		(at 219.71 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2951,12 +2927,28 @@
 		(uuid "e77cc882-62e2-4cad-ae3f-d27cbe782e2e")
 	)
 	(no_connect
+		(at 63.5 71.12)
+		(uuid "221d7dca-86a1-4711-8d29-e80f5e1da158")
+	)
+	(no_connect
 		(at 231.14 88.9)
 		(uuid "27037e98-62b7-420d-b41e-9be7a7a5a65e")
 	)
 	(no_connect
-		(at 245.11 140.97)
+		(at 63.5 63.5)
+		(uuid "3c121f6a-1982-4c16-8f74-fb43d7a13569")
+	)
+	(no_connect
+		(at 63.5 78.74)
 		(uuid "d11c34b6-ffd3-4073-98a4-365f321af82e")
+	)
+	(no_connect
+		(at 231.14 81.28)
+		(uuid "d3aa0654-e470-488c-9bf7-1d457b5a78ae")
+	)
+	(no_connect
+		(at 63.5 55.88)
+		(uuid "f738bccf-4154-45dd-b02b-0b60078e12c2")
 	)
 	(wire
 		(pts
@@ -3000,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 80.01) (xy 238.76 80.01)
+			(xy 231.14 78.74) (xy 238.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3017,16 +3009,6 @@
 			(type default)
 		)
 		(uuid "114c65c1-f22e-4cd4-8743-c41ce513320b")
-	)
-	(wire
-		(pts
-			(xy 62.23 77.47) (xy 62.23 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13fedcec-d96f-434a-b1a5-cf4f22c6ce11")
 	)
 	(wire
 		(pts
@@ -3230,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 78.74) (xy 238.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7d7c86-66a3-4921-aa69-7a42ff7e8d76")
+	)
+	(wire
+		(pts
 			(xy 27.94 106.68) (xy 29.21 106.68)
 		)
 		(stroke
@@ -3237,16 +3229,6 @@
 			(type default)
 		)
 		(uuid "40e41f94-d58f-4b08-93d1-4a2ce3b136fa")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 59.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418d50bd-8854-4d28-a534-58c46364a33c")
 	)
 	(wire
 		(pts
@@ -3327,16 +3309,6 @@
 			(type default)
 		)
 		(uuid "48cf06c0-24ed-4d7b-9238-ab88d331a1e9")
-	)
-	(wire
-		(pts
-			(xy 231.14 78.74) (xy 231.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a0ecce8-1486-43d6-b02b-1fc268f67341")
 	)
 	(wire
 		(pts
@@ -3550,16 +3522,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 64.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5f0855-f8a9-4ae1-969f-3d61b3655ea7")
-	)
-	(wire
-		(pts
 			(xy 120.65 33.02) (xy 121.92 33.02)
 		)
 		(stroke
@@ -3607,16 +3569,6 @@
 			(type default)
 		)
 		(uuid "84797e00-04ae-4076-9f24-4d9764124071")
-	)
-	(wire
-		(pts
-			(xy 62.23 74.93) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef8af8e-d46c-4e38-819e-fdba9bc114ff")
 	)
 	(wire
 		(pts
@@ -3677,16 +3629,6 @@
 			(type default)
 		)
 		(uuid "95397996-b702-4509-9907-6ecd2be8ffed")
-	)
-	(wire
-		(pts
-			(xy 59.69 69.85) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955ea0f8-6d9e-49a3-9980-f0295a5edbdd")
 	)
 	(wire
 		(pts
@@ -3757,16 +3699,6 @@
 			(type default)
 		)
 		(uuid "a0e7d0e5-97a7-4bbf-a1ec-c3b4e3e3d5ce")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 64.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28c71cc-8854-475e-a76a-d275577476da")
 	)
 	(wire
 		(pts
@@ -3960,16 +3892,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 80.01) (xy 231.14 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c415cb2b-18da-4ca6-947d-ba207e7cc2a0")
-	)
-	(wire
-		(pts
 			(xy 27.94 142.24) (xy 29.21 142.24)
 		)
 		(stroke
@@ -4017,16 +3939,6 @@
 			(type default)
 		)
 		(uuid "cb645b7e-b33d-4358-9d38-c4eacd7aec6d")
-	)
-	(wire
-		(pts
-			(xy 59.69 54.61) (xy 59.69 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd0a8b0f-7520-48f5-a3b2-e01731385390")
 	)
 	(wire
 		(pts
@@ -4087,16 +3999,6 @@
 			(type default)
 		)
 		(uuid "d2801ffb-577b-4ddd-947e-05532df8c875")
-	)
-	(wire
-		(pts
-			(xy 64.77 77.47) (xy 62.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d31d2881-8e58-40ed-bbb9-40be75f117cd")
 	)
 	(wire
 		(pts
@@ -4257,16 +4159,6 @@
 			(type default)
 		)
 		(uuid "ef75351a-dcfe-4769-9dfd-3c11db985e53")
-	)
-	(wire
-		(pts
-			(xy 64.77 54.61) (xy 59.69 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19dee24-5337-4345-8163-3761fb6a4474")
 	)
 	(wire
 		(pts
@@ -5537,7 +5429,7 @@
 		(uuid "f831e63e-f583-4040-aa96-d95f69040be5")
 	)
 	(label "~{reset}"
-		(at 232.41 80.01 0)
+		(at 232.41 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5829,7 +5721,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 59.69 0)
+		(at 63.5 60.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5837,7 +5729,7 @@
 		(dnp no)
 		(uuid "16b2b1b5-336d-447b-92c9-e03122d0c501")
 		(property "Reference" "H2"
-			(at 67.31 57.1499 0)
+			(at 66.04 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5738,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 67.31 59.6899 0)
+			(at 66.04 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5747,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 64.77 59.69 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 59.69 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5765,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 59.69 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6309,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 52.07 0)
+		(at 63.5 53.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6426,7 +6318,7 @@
 		(fields_autoplaced yes)
 		(uuid "75795b37-6561-4039-b8f9-c688e1ff2eb5")
 		(property "Reference" "H1"
-			(at 67.31 49.5299 0)
+			(at 66.04 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6327,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 67.31 52.0699 0)
+			(at 66.04 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6336,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 64.77 52.07 0)
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 52.07 0)
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6354,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 52.07 0)
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,73 +6899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90b100b-3ee6-4a0f-9c73-d06a3d79101d")
-		(property "Reference" "#PWR012"
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4bf4a97-653c-4222-aed9-c72c38a1e57f")
-		)
-		(instances
-			(project "LCC_Booster"
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 74.93 0)
+		(at 63.5 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7082,7 +6909,7 @@
 		(fields_autoplaced yes)
 		(uuid "d06c822d-1922-4fa3-93fd-17f9add289ae")
 		(property "Reference" "H4"
-			(at 67.31 72.3899 0)
+			(at 66.04 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +6918,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 67.31 74.9299 0)
+			(at 66.04 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +6927,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 64.77 74.93 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +6936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 74.93 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +6945,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 74.93 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7623,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 67.31 0)
+		(at 63.5 68.58 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7805,7 +7632,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd7b8dbe-0425-4911-b28e-9f7722100829")
 		(property "Reference" "H3"
-			(at 67.31 64.7699 0)
+			(at 66.04 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +7641,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 67.31 67.3099 0)
+			(at 66.04 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +7650,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 64.77 67.31 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +7659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 67.31 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7668,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 67.31 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
