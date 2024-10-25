@@ -39,6 +39,7 @@ class Layout:
     blocks = {}
     turnouts = {}
     block_adjacency = {}
+    layout_config = {}
     pyolcb_interface = None
 
     def __init__(self, filename: str, pyolcb_interface: pyolcb.Node) -> None:
@@ -47,25 +48,36 @@ class Layout:
         self.graph = graph
         self.pyolcb_interface = pyolcb_interface
 
+        self.layout_config['turnouts'] = {}
+        self.layout_config['block_breaks'] = {}
+
         for node in self.graph.get_nodes():
             name = node.get_name()
             label = node.get_label()
-            if name[0] in ['t', 'T'] and name[1:].is_digit():
-                id = int(name[1:])
-                parsed = _parse_node_comment(node.get_comment())
-                if parsed["is_turnout"]:
-                    self.turnouts[int(name[1:])] = Turnout(id, label)
-                    self.turnouts[int(name[1:])].set_turnoutcard(
-                        parsed["address"], parsed["index"])
-                    self.turnouts[int(name[1:])].set_pyolcb_interface(
-                        self.pyolcb_interface)
+            id = node.get_name()
+            if not isinstance(id, int):
+                id = int(re.search(r'\d+', id).group())
+            parsed = _parse_node_comment(node.get_comment())
+            if name[0] in ['t', 'T'] and name[1:].is_digit() and parsed["is_turnout"] and id not in self.turnouts:
+                self.turnouts[int(name[1:])] = Turnout(id, label)
+                self.turnouts[int(name[1:])].set_turnoutcard(
+                    parsed["address"], parsed["index"])
+                self.turnouts[int(name[1:])].set_pyolcb_interface(
+                    self.pyolcb_interface)
+                self.layout_config['turnouts'][name] = {
+                    'pos': node.get_pos(), 'label': label}
+            else:
+                self.layout_config['block_breaks'][name] = {
+                    'pos': node.get_pos(), 'label': label}
+
+        self.layout_config['blocks'] = {}
 
         for edge in self.graph.get_edges():
             id = edge.get_id()
             if not isinstance(id, int):
                 id = int(re.search(r'\d+', id).group())
             label = edge.get_label()
-            if not id in self.blocks:
+            if id not in self.blocks:
                 if label is None or label == "":
                     label = str(id)
                 self.blocks[id] = Block(id, label)
@@ -75,6 +87,10 @@ class Layout:
                 self.blocks[id].set_pyolcb_interface(self.pyolcb_interface)
                 self.blocks[id].turn_off()
                 self.block_adjacency[id] = {}
+                
+            self.layout_config['blocks'][str(edge.get_id())] = {
+                'label': label, 'source': edge.get_source(),
+                'destination': edge.get_destination()}
 
         # Fill in block adjacency
         #    CONTINUOUS: Connected, same wiring
@@ -117,4 +133,7 @@ class Layout:
         return layout_state
 
     def get_layout_config(self):
-        return str(self.graph)
+        return self.layout_config
+    
+    def get_layout_dot(self):
+        return self.graph.to_string()

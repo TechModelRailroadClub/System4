@@ -25,9 +25,14 @@ class Train:
     
     def reverse(self):
         self.heading = (self.heading + 1)%2
+        
 
     def update_speed(self, speed:int):
         self.speed = speed
+        if self.is_dcc:
+            self.location.set_dcc()
+        else:
+            self.location.set_dc_speed(self.speed)
 
 
     def __str__(self):
