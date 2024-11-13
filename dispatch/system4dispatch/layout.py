@@ -1,7 +1,8 @@
 import pydot
 import pyolcb
-from .block import Block, BlockAdjacency
+from .block import Block, Adjacency
 from .turnout import Turnout
+from .train import Train
 import re
 
 
@@ -40,6 +41,7 @@ class Layout:
     turnouts = {}
     block_adjacency = {}
     layout_config = {}
+    trains = {}
     pyolcb_interface = None
 
     def __init__(self, filename: str, pyolcb_interface: pyolcb.Node) -> None:
@@ -100,13 +102,13 @@ class Layout:
             for j in self.graph.get_edges():
                 if i.get_destination() == j.get_source():
                     self.block_adjacency[i.get_id(
-                    )][j.get_id()] = BlockAdjacency.CONTINUOUS
+                    )][j.get_id()] = Adjacency.CONTINUOUS
                 elif i.get_destination() == j.get_destination() or i.get_source() == j.get_source():
                     self.block_adjacency[i.get_id()][j.get_id(
-                    )] = BlockAdjacency.DISCONTINUOUS
+                    )] = Adjacency.DISCONTINUOUS
                 else:
                     self.block_adjacency[i.get_id()][j.get_id(
-                    )] = BlockAdjacency.DISCONNECTED
+                    )] = Adjacency.DISCONNECTED
 
         # Check no block loops back on itself
         for i in self.blocks:
@@ -129,6 +131,15 @@ class Layout:
                 "occupied": self.blocks[i].get_occupied(),
                 "signal": self.blocks[i].get_signal(),
                 "reversed": self.blocks[i].get_reversed()}
+            
+        layout_state['trains'] = {}
+        for i in self.trains:
+            layout_state['trains'][i] = {
+                "location": self.trains[i].location.id,
+                "direction": self.trains[i].direction,
+                "heading": self.trains[i].heading,
+                "speed": self.trains[i].speed
+            }
 
         return layout_state
 
@@ -137,3 +148,13 @@ class Layout:
     
     def get_layout_dot(self):
         return self.graph.to_string()
+    
+    def add_train(self, train:Train):
+        self.trains[train.name] = train
+
+    def get_train(self, train_name):
+        return self.trains[str(train_name)]
+    
+    def drop_train(self, train_name):
+        del self.trains[str(train_name)]
+

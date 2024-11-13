@@ -1,15 +1,11 @@
 import pyolcb
+from .utilities import Signal
 from enum import Enum
 
-class BlockAdjacency(Enum):
+class Adjacency(Enum):
     CONTINUOUS = 1
     DISCONNECTED = 0
     DISCONTINUOUS = -1
-
-class BlockSignal(Enum):
-    CLEAR = 0
-    OCCUPIED = 1
-    APPROACH = 2
 
 class Block:
     dcc = True
@@ -42,15 +38,15 @@ class Block:
 
     def set_occupied(self):
         self.occupied = True
-        self.signal = BlockSignal.OCCUPIED
+        self.signal = Signal.OCCUPIED
     
     def set_approach(self):
-        self.signal = BlockSignal.APPROACH
+        self.signal = Signal.APPROACH
         self.occupied = False
     
     def set_clear(self):
         self.occupied = False
-        self.signal = BlockSignal.CLEAR
+        self.signal = Signal.CLEAR
 
     def get_occupied(self):
         return self.occupied

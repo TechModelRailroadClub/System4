@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|64825000|98375000|83b8b404-8eff-44b5-a203-808266504b37|5f5e49e5-9099-44e7-bb3d-b56b04bfbb3e",
-        "silk_over_copper|104676533|104060000|24fd2b65-43fe-43a3-a464-6db8241c77b4|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|104681782|73000000|0af714e1-5175-48dc-bba3-1453621ca1a3|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|102277180|44005639|83980351-0ba2-4312-807f-f47d6178bbe0|cbe5d242-47c5-41bf-9fe8-30d4f0a026e8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -578,8 +573,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../",
-      "plot": "out",
-      "pos_files": "",
+      "plot": "out/pcb",
+      "pos_files": "out/pcba",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -589,7 +584,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "LCC_Booster_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -606,8 +601,14 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "Manufacturer Part Number",
           "show": true
         },
         {
@@ -620,7 +621,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -629,16 +630,10 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -650,7 +645,13 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
         },
         {
           "group_by": false,
@@ -687,7 +688,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

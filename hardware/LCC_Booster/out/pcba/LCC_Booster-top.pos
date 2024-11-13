@@ -1,0 +1,61 @@
+### Footprint positions - created on 2024-11-13T03:04:41-0500 ###
+### Printed by KiCad version 8.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                           PosX       PosY       Rot  Side
+C1        C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    58.7200   -51.8825   90.0000  top
+C2        C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    45.5000   -42.1875    0.0000  top
+C3        C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    43.2375   -52.6875    0.0000  top
+C4        C10u_VM       C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    36.6700   -52.1875  180.0000  top
+C5        C100n_VM      C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    41.6914   -52.2550  -90.0000  top
+C6        C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    44.1700   -51.1875    0.0000  top
+C7        C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    48.3550   -44.2875  -90.0000  top
+C8        C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    58.7200   -66.8825   90.0000  top
+C9        C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    46.0000   -57.1875    0.0000  top
+C10       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    43.2375   -67.6875    0.0000  top
+C11       C10u_VM       C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    36.6700   -67.1875  180.0000  top
+C12       C100n_VM      C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    41.6914   -67.2550  -90.0000  top
+C13       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    44.1700   -66.1875    0.0000  top
+C14       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    48.3550   -59.2875  -90.0000  top
+C15       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    58.7200   -81.8825   90.0000  top
+C16       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    46.0000   -72.1875    0.0000  top
+C17       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    43.2375   -82.6875    0.0000  top
+C18       C10u_VM       C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    36.6700   -82.1875  180.0000  top
+C19       C100n_VM      C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    41.6914   -82.2550  -90.0000  top
+C20       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    44.1700   -81.1875    0.0000  top
+C21       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    48.3550   -74.2875  -90.0000  top
+C22       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    58.7200   -96.8825   90.0000  top
+C23       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    46.0000   -87.1875    0.0000  top
+C24       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    43.2375   -97.6875    0.0000  top
+C25       C10u_VM       C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    36.6700   -97.1875  180.0000  top
+C26       C100n_VM      C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    41.6914   -97.2550  -90.0000  top
+C27       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    44.1700   -96.1875    0.0000  top
+C28       C22n          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    48.3550   -89.2875  -90.0000  top
+C32       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    97.0000   -59.5000  180.0000  top
+C33       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    80.5000   -72.0000   90.0000  top
+C34       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    83.5000   -78.2500    0.0000  top
+C35       C100n         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    80.2500   -93.2500    0.0000  top
+R1        R47k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    41.5000   -24.7500    0.0000  top
+R2        R1k430        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    50.1050   -44.6875    0.0000  top
+R4        R47k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    41.5000   -28.2500    0.0000  top
+R5        R1k430        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    50.1050   -59.6875    0.0000  top
+R7        R47k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    41.5000   -31.7500    0.0000  top
+R8        R1k430        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    50.1050   -74.6875    0.0000  top
+R10       R47k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    41.5000   -35.2500    0.0000  top
+R11       R1k430        R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    50.1050   -89.6875    0.0000  top
+R13       R10k          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    85.0000   -85.7500    0.0000  top
+R14       R2k_1W        R_2512_6332Metric_Pad1.40x3.35mm_HandSolder    61.5000  -104.0000   90.0000  top
+R15       R2k_1W        R_2512_6332Metric_Pad1.40x3.35mm_HandSolder    67.0000  -104.0000   90.0000  top
+R16       R10k          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder    82.5000   -99.2500   90.0000  top
+U1        SN74HC253DR   SO-16_3.9x9.9mm_P1.27mm                        52.7200   -49.6325  -90.0000  top
+U2        DRV8874PWPR   PWP0016J_NV                                    42.6700   -46.6875  -90.0000  top
+U3        SN74HC253DR   SO-16_3.9x9.9mm_P1.27mm                        52.7200   -64.6325  -90.0000  top
+U4        DRV8874PWPR   PWP0016J_NV                                    42.6700   -61.6875  -90.0000  top
+U5        SN74HC253DR   SO-16_3.9x9.9mm_P1.27mm                        52.7200   -79.6325  -90.0000  top
+U6        DRV8874PWPR   PWP0016J_NV                                    42.6700   -76.6875  -90.0000  top
+U7        SN74HC253DR   SO-16_3.9x9.9mm_P1.27mm                        52.7200   -94.6325  -90.0000  top
+U8        DRV8874PWPR   PWP0016J_NV                                    42.6700   -91.6875  -90.0000  top
+U10       MCP2562-E-SN  SOIC-8_3.9x4.9mm_P1.27mm                       85.0000   -72.0000    0.0000  top
+U11       6N137         DIP-8_W7.62mm_SMDSocket_SmallPads              78.2500   -84.2500    0.0000  top
+U12       6N137         DIP-8_W7.62mm_SMDSocket_SmallPads              75.7500   -99.2500    0.0000  top
+## End

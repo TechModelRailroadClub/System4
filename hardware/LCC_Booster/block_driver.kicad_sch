@@ -1941,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 204.47 39.37)
+			(xy 196.85 39.37) (xy 205.74 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 31.75) (xy 204.47 31.75)
+			(xy 189.23 31.75) (xy 205.74 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07f21630-433b-4d41-bf8e-b392e79498d9")
-		(property "Reference" "JP6"
+		(property "Reference" "JP8"
 			(at 181.102 142.24 90)
 			(effects
 				(font
@@ -2738,6 +2738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1355805-784c-4004-bb01-6f987b5537b8")
 		)
@@ -2747,19 +2756,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "JP6")
+					(reference "JP8")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "JP7")
+					(reference "JP9")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
-					(reference "JP5")
+					(reference "JP7")
 					(unit 1)
 				)
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
-					(reference "JP4")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2793,7 +2802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 198.882 132.08 90)
 			(effects
 				(font
@@ -2812,6 +2821,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0402FR-071K43L"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -2936,6 +2963,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5c63d4d-2de4-479b-af44-cfb2b972348d")
 		)
@@ -3025,7 +3070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.972 58.42 90)
 			(effects
 				(font
@@ -3044,6 +3089,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ6ENF4702V"
+			(at 158.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
 			(at 158.75 58.42 0)
 			(effects
 				(font
@@ -3347,7 +3410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44880239-a424-46fc-be16-fce7a6aec690")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -3384,6 +3447,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74HC253DR"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -3443,19 +3524,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
 					(reference "U5")
 					(unit 1)
 				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
 					(reference "U3")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3592,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C10u"
+		(property "Value" "C10u VM"
 			(at 193.04 36.8299 0)
 			(effects
 				(font
@@ -3620,6 +3701,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL31A106KBHNNNE"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
 			(at 189.23 35.56 0)
 			(effects
 				(font
@@ -3933,6 +4032,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4181bca4-baf5-41d8-9db0-e3f5f8b73a89")
 		)
@@ -3996,7 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 35.56 0)
+		(at 205.74 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4005,7 +4122,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f920832-400b-4061-92a6-48440b1bea6e")
 		(property "Reference" "C19"
-			(at 208.28 34.2899 0)
+			(at 209.55 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,8 +4130,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100n"
-			(at 208.28 36.8299 0)
+		(property "Value" "C100n VM"
+			(at 209.55 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 205.4352 39.37 0)
+			(at 206.7052 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 35.56 0)
+			(at 205.74 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4158,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 35.56 0)
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB5NFNC"
+			(at 205.74 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,6 +4292,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B223KB5NNNC"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
 			(at 227.33 92.71 0)
 			(effects
 				(font
@@ -4617,6 +4770,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CL05B223KB5NNNC"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "266cf2fd-fe53-4a36-a9fc-2957e7c3a001")
 		)
@@ -4706,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 210.312 142.24 90)
 			(effects
 				(font
@@ -4725,6 +4896,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 212.09 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 212.09 142.24 0)
 			(effects
 				(font
@@ -4849,6 +5029,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f40e46a3-4537-4e28-a2bd-a97e92131613")
 		)
@@ -4920,7 +5118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2124b5-49f9-4c68-898e-f4296cc60d61")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 200.66 48.26 0)
 			(effects
 				(font
@@ -4957,6 +5155,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DRV8874PWPR"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -5019,19 +5235,19 @@
 		(instances
 			(project "LCC_Booster"
 				(path "/e8524381-bb01-4107-93ec-8133e878a3da/3acc3266-052e-42c0-b497-1dc12936230d"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
 					(reference "U6")
 					(unit 1)
 				)
-				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/6939f6fa-d75b-4eb8-b744-4876a3adabd6"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/d1a66b1c-451f-4d75-a19b-2f867b2d97ed"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/e8524381-bb01-4107-93ec-8133e878a3da/e60b84bd-96a5-4d6c-8d17-0e1e474b63f1"
+					(reference "U2")
 					(unit 1)
 				)
 			)
