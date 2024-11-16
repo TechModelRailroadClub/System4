@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Arduino Nano LCC Booster")
-		(date "2024-09-10")
-		(rev "4")
+		(date "2024-11-16")
+		(rev "5")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)

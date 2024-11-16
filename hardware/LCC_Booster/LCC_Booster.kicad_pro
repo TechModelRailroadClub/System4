@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "net_conflict|102000000|62000000|4961d612-32ab-4fd3-a832-4e4cf4e10c82|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +182,8 @@
       "track_widths": [
         0.0,
         0.3,
-        1.0
+        1.0,
+        1.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,7 +511,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.19,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -518,7 +521,7 @@
         "name": "Track Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.44,
+        "track_width": 1.75,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6

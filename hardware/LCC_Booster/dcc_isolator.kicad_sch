@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Nano LCC Booster")
-		(date "2024-09-10")
-		(rev "4")
+		(date "2024-11-16")
+		(rev "5")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -2043,7 +2043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.0352 64.77 0)
 			(effects
 				(font
@@ -2079,7 +2079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+		(property "Manufacturer Part Number" "CL21B104KACNFNC"
 			(at 179.07 60.96 0)
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.5352 64.77 0)
 			(effects
 				(font
@@ -2233,7 +2233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+		(property "Manufacturer Part Number" "CL21B104KACNFNC"
 			(at 115.57 60.96 0)
 			(effects
 				(font
@@ -2457,7 +2457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 193.548 60.96 90)
 			(effects
 				(font
@@ -2484,7 +2484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0402JR-7W10KL"
+		(property "Manufacturer Part Number" "RC0805JR-0710KL"
 			(at 191.77 60.96 0)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 107.188 60.96 90)
 			(effects
 				(font
@@ -2762,7 +2762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0402JR-7W10KL"
+		(property "Manufacturer Part Number" "RC0805JR-0710KL"
 			(at 105.41 60.96 0)
 			(effects
 				(font

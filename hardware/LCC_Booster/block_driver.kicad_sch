@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Nano LCC Booster")
-		(date "2024-09-10")
-		(rev "4")
+		(date "2024-11-16")
+		(rev "5")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -2802,7 +2802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 198.882 132.08 90)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "AC0402FR-071K43L"
+		(property "Manufacturer Part Number" "RC0805FR-071K43L"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -2936,7 +2936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.3652 106.68 0)
 			(effects
 				(font
@@ -2972,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+		(property "Manufacturer Part Number" "CL21B104KACNFNC"
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 141.9352 36.83 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+		(property "Manufacturer Part Number" "CL21B104KACNFNC"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -4139,7 +4139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 206.7052 39.37 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104KB5NFNC"
+		(property "Manufacturer Part Number" "CL21B104KBFXPJE"
 			(at 205.74 35.56 0)
 			(effects
 				(font
@@ -4273,7 +4273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 228.2952 96.52 0)
 			(effects
 				(font
@@ -4300,7 +4300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B223KB5NNNC"
+		(property "Manufacturer Part Number" "CL21B223JBANNNC"
 			(at 227.33 92.71 0)
 			(effects
 				(font
@@ -4743,7 +4743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 232.1052 142.24 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B223KB5NNNC"
+		(property "Manufacturer Part Number" "CL21B223JBANNNC"
 			(at 231.14 138.43 0)
 			(effects
 				(font
@@ -4877,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.312 142.24 90)
 			(effects
 				(font
@@ -5002,7 +5002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 172.4152 66.04 0)
 			(effects
 				(font
@@ -5038,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104K05NNNC"
+		(property "Manufacturer Part Number" "CL21B104KACNFNC"
 			(at 171.45 62.23 0)
 			(effects
 				(font
