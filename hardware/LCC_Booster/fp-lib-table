@@ -6,4 +6,5 @@
   (lib (name "GF-126-0159")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/GF-126-0159")(options "")(descr ""))
   (lib (name "ECS_400_20_46X")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ECS_400_20_46X")(options "")(descr ""))
   (lib (name "RJHSE508002")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/RJHSE508002")(options "")(descr ""))
+  (lib (name "MountingHoles")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/MountingHoles")(options "")(descr ""))
 )
