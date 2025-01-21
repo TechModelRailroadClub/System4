@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "a361de16-4c0e-430c-aab7-3797208e9e71")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
-		(title "Arduino Nano LCC Booster")
-		(date "2024-11-16")
-		(rev "5")
+		(title "Raspberry Pi Pico LCC Block Card")
+		(date "2025-01-09")
+		(rev "1")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -1416,28 +1416,34 @@
 		)
 	)
 	(junction
+		(at 109.22 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1844d6c2-5c87-437c-a3bd-455a2930687f")
+	)
+	(junction
 		(at 186.69 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19bdc3c9-e7a0-430c-a299-5532c15c611e")
 	)
 	(junction
-		(at 109.22 91.44)
+		(at 96.52 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5baa2024-f89d-4afc-a589-7c5bfb1897fe")
+		(uuid "35f215b9-7de3-4d73-9237-2ad22c4f25db")
+	)
+	(junction
+		(at 109.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51387ec3-eb80-4b70-97ac-d160a5772e79")
 	)
 	(junction
 		(at 154.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c84620c-2b75-4739-95b3-25e3f2c95e41")
-	)
-	(junction
-		(at 96.52 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "749c4c3f-44dd-466c-9dac-9136be5a57e0")
 	)
 	(junction
 		(at 146.05 53.34)
@@ -1480,12 +1486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c75e85d5-2954-4980-90d3-e2eefe7ca748")
-	)
-	(junction
-		(at 109.22 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee43644b-6a4b-4cf2-aebd-d764a2046bbf")
 	)
 	(junction
 		(at 186.69 123.19)
@@ -1537,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 96.52 101.6)
+			(xy 96.52 90.17) (xy 96.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 115.57 101.6)
+			(xy 115.57 92.71) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1614,6 +1614,16 @@
 			(type default)
 		)
 		(uuid "18d40659-a330-49db-b4e5-d2b0a27a5558")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e90ff02-d28b-4e97-b142-6a0206cbc31b")
 	)
 	(wire
 		(pts
@@ -1717,17 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 96.52 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f665e0-004a-4348-9283-46408f8923c4")
-	)
-	(wire
-		(pts
-			(xy 109.22 101.6) (xy 115.57 101.6)
+			(xy 109.22 100.33) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 158.75 85.09)
+			(xy 161.29 85.09) (xy 158.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1764,6 +1764,16 @@
 			(type default)
 		)
 		(uuid "6002cb56-cb29-47a2-ba71-96da43f10ee2")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f4ca99-42f1-4721-ae2d-fab8be95614c")
 	)
 	(wire
 		(pts
@@ -1797,23 +1807,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 96.52 91.44)
+			(xy 99.06 90.17) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "757e5c6b-f086-4d1e-a5ac-adfca1cd9c94")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 109.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763cc031-5c7b-4fa8-8ce1-5b892cd7ba2d")
 	)
 	(wire
 		(pts
@@ -1844,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "7f27f4d6-a61b-4d38-b117-1178ee6619d4")
+	)
+	(wire
+		(pts
+			(xy 106.68 100.33) (xy 109.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a24477-a484-4de9-9cf6-7bc0f46c2209")
 	)
 	(wire
 		(pts
@@ -1957,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 101.6 101.6)
+			(xy 96.52 100.33) (xy 99.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2121,7 @@
 		)
 		(uuid "bc8c357d-e31a-4459-83fc-63d4396f3718")
 	)
-	(hierarchical_label "can_h"
+	(hierarchical_label "can_h+"
 		(shape bidirectional)
 		(at 207.01 77.47 0)
 		(fields_autoplaced yes)
@@ -2123,7 +2133,7 @@
 		)
 		(uuid "bfaf16b6-a7c4-49fc-a4ec-27448ad1c6a9")
 	)
-	(hierarchical_label "can_l"
+	(hierarchical_label "can_l-"
 		(shape bidirectional)
 		(at 207.01 82.55 0)
 		(fields_autoplaced yes)
@@ -2149,7 +2159,7 @@
 	)
 	(hierarchical_label "int-cantx"
 		(shape bidirectional)
-		(at 160.02 85.09 270)
+		(at 161.29 85.09 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2161,7 +2171,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 91.44 90)
+		(at 102.87 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2169,7 +2179,7 @@
 		(dnp yes)
 		(uuid "090d025d-6103-4988-aaa4-7cbf367ff364")
 		(property "Reference" "C29"
-			(at 105.41 94.742 90)
+			(at 102.87 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2187,7 @@
 			)
 		)
 		(property "Value" "C22p"
-			(at 105.41 97.282 90)
+			(at 102.87 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2195,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 109.22 90.4748 0)
+			(at 106.68 89.2048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 91.44 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2213,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 91.44 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2222,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 105.41 91.44 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,6 +2314,7 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 154.94 85.09 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2311,7 +2322,7 @@
 		(dnp no)
 		(uuid "21f52435-77f8-40bd-b419-020fa7d5a091")
 		(property "Reference" "JP6"
-			(at 152.4 86.3601 0)
+			(at 152.4 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2331,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 152.4 83.8201 90)
+			(at 152.4 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2462,6 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 104.14 68.58 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2459,7 +2469,7 @@
 		(dnp no)
 		(uuid "44d1bc89-53b2-4643-a6ba-fea7508ed783")
 		(property "Reference" "JP5"
-			(at 106.68 69.8501 0)
+			(at 106.68 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2478,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 106.68 67.3101 90)
+			(at 106.68 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,16 +2543,15 @@
 	)
 	(symbol
 		(lib_id "ECS-400-20-46X:ECS-400-20-46X")
-		(at 109.22 96.52 90)
+		(at 109.22 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "5abf6657-c5c3-48e5-93aa-4c9e5fc48486")
 		(property "Reference" "Y1"
-			(at 111.76 95.2499 90)
+			(at 111.76 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2560,7 @@
 			)
 		)
 		(property "Value" "ECS-400-20-46X"
-			(at 111.76 97.7899 90)
+			(at 113.03 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2569,7 @@
 			)
 		)
 		(property "Footprint" "ECS_400_20_46X:XTAL_ECS-400-20-46X"
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2597,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ECS Inc."
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2607,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7251"
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2617,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3145,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 101.6 90)
+		(at 102.87 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3144,7 +3153,7 @@
 		(dnp yes)
 		(uuid "eb5244c5-0301-4878-b2cb-92866a0cc34c")
 		(property "Reference" "C30"
-			(at 105.41 104.902 90)
+			(at 102.87 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3161,7 @@
 			)
 		)
 		(property "Value" "C22p"
-			(at 105.41 107.442 90)
+			(at 102.87 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 109.22 100.6348 0)
+			(at 106.68 99.3648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 101.6 0)
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 101.6 0)
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3196,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 105.41 101.6 0)
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

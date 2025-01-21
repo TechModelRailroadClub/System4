@@ -11,4 +11,6 @@
   (lib (name "2024-05-05_05-04-59")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_MCP2518FDT-E-SL/KiCADv6/2024-05-05_05-04-59.kicad_sym")(options "")(descr ""))
   (lib (name "2024-05-05_02-40-09")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_MCP251863T-H-SS/KiCADv6/2024-05-05_02-40-09.kicad_sym")(options "")(descr ""))
   (lib (name "SN3257QPWRQ1")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/SN3257QPWRQ1/KiCADv6/2025-01-09_01-27-30.kicad_sym")(options "")(descr ""))
+  (lib (name "SM04B_SRSS_TB")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/SM04B_SRSS_TB/KiCADv6/2025-01-09_05-34-50.kicad_sym")(options "")(descr ""))
+  (lib (name "TMUX7234PWR")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_TMUX7234PWR/KiCADv6/2025-01-09_06-04-19.kicad_sym")(options "")(descr ""))
 )

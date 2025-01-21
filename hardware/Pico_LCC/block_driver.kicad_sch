@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "db138877-afa1-4da9-b8ca-fb1089148b15")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
-		(title "Arduino Nano LCC Booster")
-		(date "2024-11-16")
-		(rev "5")
+		(title "Raspberry Pi Pico LCC Block Card")
+		(date "2025-01-09")
+		(rev "1")
 		(company "TMRC")
 		(comment 1 "Noah Paladino")
 	)
@@ -2430,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1784e43c-2316-47d1-bb20-124bd0edd70b")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 203.2 135.8899 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c1da41-43f8-4cb3-90d8-45f42773145a")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 156.21 101.5999 0)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2a7812-4808-41b5-b973-c4bb3fa1db07")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 161.29 57.1499 0)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b637400-d63e-475a-9c33-f1f5a10da7a5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 189.23 34.29 0)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a9e5bb-65f0-4d9a-9d82-98e3777b7638")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR013"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44880239-a424-46fc-be16-fce7a6aec690")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -3027,7 +3027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a700354-8d00-4b87-b11d-c1f6259fdfb9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f639da0-6edf-40e0-89e7-0b8526047328")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 193.04 34.2899 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ace01f2-7197-40e9-ad31-3e7413677b86")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70fc4da0-daca-46e3-bd91-8b0e9f543554")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 196.85 48.26 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e53fb9d-1531-4824-b4e9-aef387928513")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 144.78 31.7499 0)
 			(effects
 				(font
@@ -3461,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f920832-400b-4061-92a6-48440b1bea6e")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 209.55 34.2899 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10958e8-af97-47ef-a9e0-f6a799cb36ad")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 231.14 91.4399 0)
 			(effects
 				(font
@@ -3661,7 +3661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5502a5a-9b2f-4228-8975-016093bd26f0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -3739,7 +3739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf516568-f311-4654-8b35-91a82e5e3163")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -3817,7 +3817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d08c9661-9050-4b0e-8d9f-42b46004ad26")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR019"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -3895,7 +3895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2de5f4d-4762-423d-97dc-559eda2dabb7")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 234.95 135.8899 0)
 			(effects
 				(font
@@ -3995,7 +3995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f664f75f-561c-4878-8304-27f69f48361c")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 175.26 60.9599 0)
 			(effects
 				(font
@@ -4095,7 +4095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2124b5-49f9-4c68-898e-f4296cc60d61")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 200.66 48.26 0)
 			(effects
 				(font
